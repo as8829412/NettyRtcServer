@@ -1,0 +1,1083 @@
+2018-09-27 09:13:39.500 - [main] DEBUG - com.mpush.tools.Utils - getInetAddress is null, getLocal=false
+2018-09-27 09:13:39.732 - [main] DEBUG - com.mpush.tools.Utils - getInetAddress is null, getLocal=false
+2018-09-27 09:13:39.905 - [main] DEBUG - i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2018-09-27 09:13:39.906 - [main] DEBUG - i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2018-09-27 09:13:39.907 - [main] DEBUG - i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2018-09-27 09:13:40.016 - [main] DEBUG - o.a.curator.CuratorZookeeperClient - Starting
+2018-09-27 09:13:40.017 - [main] DEBUG - org.apache.curator.ConnectionState - Starting
+2018-09-27 09:13:40.017 - [main] DEBUG - org.apache.curator.ConnectionState - reset
+2018-09-27 09:13:41.201 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:13:41.201 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:13:43.304 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:13:43.304 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:13:45.406 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:13:45.406 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:13:47.508 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:13:47.508 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:13:49.608 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:13:49.608 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:13:51.717 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:13:51.717 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:13:53.818 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:13:53.819 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:13:55.919 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:13:55.920 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:13:58.031 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:13:58.031 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:14:00.140 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:14:00.140 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:14:02.251 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:14:02.251 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:14:04.353 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:14:04.354 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:29.793 - [main] DEBUG - com.mpush.tools.Utils - getInetAddress is null, getLocal=false
+2018-09-27 09:46:29.989 - [main] DEBUG - com.mpush.tools.Utils - getInetAddress is null, getLocal=false
+2018-09-27 09:46:30.177 - [main] DEBUG - i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2018-09-27 09:46:30.178 - [main] DEBUG - i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2018-09-27 09:46:30.178 - [main] DEBUG - i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2018-09-27 09:46:30.289 - [main] DEBUG - o.a.curator.CuratorZookeeperClient - Starting
+2018-09-27 09:46:30.289 - [main] DEBUG - org.apache.curator.ConnectionState - Starting
+2018-09-27 09:46:30.289 - [main] DEBUG - org.apache.curator.ConnectionState - reset
+2018-09-27 09:46:31.464 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:31.465 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:33.569 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:33.569 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:35.669 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:35.669 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:37.771 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:37.771 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:39.872 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:39.872 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:41.974 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:41.974 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:44.074 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:44.075 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:46.176 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:46.176 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:48.277 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:48.277 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:50.378 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:50.378 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:52.485 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:52.485 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:54.586 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:54.586 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:56.687 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:56.687 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:58.788 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:46:58.788 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:00.915 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:00.915 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:03.017 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:03.017 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:05.118 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:05.118 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:07.219 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:07.219 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:09.320 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:09.320 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:11.420 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:11.420 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:13.521 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:13.521 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:15.625 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:15.626 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:17.730 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:17.731 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:19.832 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:19.832 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:21.933 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:21.933 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:24.034 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:24.034 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:26.134 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:26.135 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:28.235 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:28.235 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:30.336 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 09:47:30.336 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 10:24:21.451 - [main] DEBUG - com.mpush.tools.Utils - getInetAddress is null, getLocal=false
+2018-09-27 10:24:21.597 - [main] DEBUG - com.mpush.tools.Utils - getInetAddress is null, getLocal=false
+2018-09-27 10:24:21.779 - [main] DEBUG - i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2018-09-27 10:24:21.780 - [main] DEBUG - i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2018-09-27 10:24:21.780 - [main] DEBUG - i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2018-09-27 10:24:21.887 - [main] DEBUG - o.a.curator.CuratorZookeeperClient - Starting
+2018-09-27 10:24:21.887 - [main] DEBUG - org.apache.curator.ConnectionState - Starting
+2018-09-27 10:24:21.887 - [main] DEBUG - org.apache.curator.ConnectionState - reset
+2018-09-27 10:24:22.124 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/', name='null', children=null, context=null, stat=2471,2471,1537928116282,1537928116282,0,1,0,0,0,1,2473
+, data=[], watchedEvent=null, aclList=null}
+2018-09-27 10:24:22.128 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/', stat=2471,2471,1537928116282,1537928116282,0,1,0,0,0,1,2473
+, data=[]}}
+2018-09-27 10:24:22.130 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/', name='null', children=[cluster], context=null, stat=2471,2471,1537928116282,1537928116282,0,1,0,0,0,1,2473
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 10:24:22.131 - [main] DEBUG - io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: paranoid
+2018-09-27 10:24:22.132 - [main] DEBUG - io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2018-09-27 10:24:22.132 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster', name='null', children=null, context=null, stat=2473,2473,1537928116680,1537928116680,0,3,0,0,0,3,2504
+, data=[], watchedEvent=null, aclList=null}
+2018-09-27 10:24:22.132 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster', stat=2473,2473,1537928116680,1537928116680,0,3,0,0,0,3,2504
+, data=[]}}
+2018-09-27 10:24:22.133 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster', name='null', children=[cs, gs, ws], context=null, stat=2473,2473,1537928116680,1537928116680,0,3,0,0,0,3,2504
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 10:24:22.135 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs', name='null', children=null, context=null, stat=2474,2474,1537928116720,1537928116720,0,8,0,0,0,0,2508
+, data=[], watchedEvent=null, aclList=null}
+2018-09-27 10:24:22.136 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/cs', stat=2474,2474,1537928116720,1537928116720,0,8,0,0,0,0,2508
+, data=[]}}
+2018-09-27 10:24:22.136 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs', name='null', children=[], context=null, stat=2474,2474,1537928116720,1537928116720,0,8,0,0,0,0,2508
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 10:24:22.136 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs', name='null', children=null, context=null, stat=2477,2477,1537928116833,1537928116833,0,8,0,0,0,0,2508
+, data=[], watchedEvent=null, aclList=null}
+2018-09-27 10:24:22.136 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/gs', stat=2477,2477,1537928116833,1537928116833,0,8,0,0,0,0,2508
+, data=[]}}
+2018-09-27 10:24:22.136 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs', name='null', children=[], context=null, stat=2477,2477,1537928116833,1537928116833,0,8,0,0,0,0,2508
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 10:24:22.137 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/ws', name='null', children=null, context=null, stat=2504,2504,1537954897761,1537954897761,0,2,0,0,0,0,2508
+, data=[], watchedEvent=null, aclList=null}
+2018-09-27 10:24:22.137 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/ws', stat=2504,2504,1537954897761,1537954897761,0,2,0,0,0,0,2508
+, data=[]}}
+2018-09-27 10:24:22.137 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/ws', name='null', children=[], context=null, stat=2504,2504,1537954897761,1537954897761,0,2,0,0,0,0,2508
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 10:24:22.137 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=INITIALIZED, data=null}
+2018-09-27 10:24:22.147 - [main] DEBUG - i.n.util.internal.PlatformDependent - Platform: Windows
+2018-09-27 10:24:22.148 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2018-09-27 10:24:22.148 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - Java version: 8
+2018-09-27 10:24:22.149 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2018-09-27 10:24:22.149 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2018-09-27 10:24:22.150 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2018-09-27 10:24:22.150 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - direct buffer constructor: available
+2018-09-27 10:24:22.150 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2018-09-27 10:24:22.150 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2018-09-27 10:24:22.151 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2018-09-27 10:24:22.151 - [main] DEBUG - i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2018-09-27 10:24:22.151 - [main] DEBUG - i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2018-09-27 10:24:22.151 - [main] DEBUG - i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2018-09-27 10:24:22.152 - [main] DEBUG - i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2018-09-27 10:24:22.152 - [main] DEBUG - i.n.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1895825408 bytes
+2018-09-27 10:24:22.152 - [main] DEBUG - i.n.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2018-09-27 10:24:22.153 - [main] DEBUG - io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2018-09-27 10:24:22.153 - [main] DEBUG - i.n.u.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@623a8092
+2018-09-27 10:24:22.159 - [main] DEBUG - i.n.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2018-09-27 10:24:22.184 - [main] DEBUG - i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2018-09-27 10:24:22.204 - [main] DEBUG - io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2018-09-27 10:24:22.204 - [main] DEBUG - io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2018-09-27 10:24:22.232 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2018-09-27 10:24:22.232 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2018-09-27 10:24:22.232 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2018-09-27 10:24:22.232 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2018-09-27 10:24:22.232 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2018-09-27 10:24:22.232 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2018-09-27 10:24:22.233 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2018-09-27 10:24:22.233 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2018-09-27 10:24:22.233 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2018-09-27 10:24:22.233 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2018-09-27 10:24:22.233 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2018-09-27 10:24:22.246 - [main] DEBUG - io.netty.channel.DefaultChannelId - -Dio.netty.processId: 7884 (auto-detected)
+2018-09-27 10:24:22.248 - [main] DEBUG - io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2018-09-27 10:24:22.248 - [main] DEBUG - io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2018-09-27 10:24:22.337 - [main] DEBUG - io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2018-09-27 10:24:22.338 - [main] DEBUG - io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2018-09-27 10:24:22.449 - [main] DEBUG - io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2018-09-27 10:24:22.470 - [main] DEBUG - io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2018-09-27 10:24:22.470 - [main] DEBUG - io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2018-09-27 10:24:22.470 - [main] DEBUG - io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2018-09-27 10:24:22.575 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/cluster/cs
+2018-09-27 10:24:22.577 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs', name='null', children=[6d2d3e35-5401-4da3-9789-eb9a75dc9747], context=null, stat=2474,2474,1537928116720,1537928116720,0,9,0,0,0,1,2512
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 10:24:22.578 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs/6d2d3e35-5401-4da3-9789-eb9a75dc9747', name='null', children=null, context=null, stat=2512,2512,1538015062552,1538015062552,0,0,0,100795353376292865,56,0,2512
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125], watchedEvent=null, aclList=null}
+2018-09-27 10:24:22.579 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/cs/6d2d3e35-5401-4da3-9789-eb9a75dc9747', stat=2512,2512,1538015062552,1538015062552,0,0,0,100795353376292865,56,0,2512
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125]}}
+2018-09-27 10:24:22.579 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs/6d2d3e35-5401-4da3-9789-eb9a75dc9747', name='null', children=[], context=null, stat=2512,2512,1538015062552,1538015062552,0,0,0,100795353376292865,56,0,2512
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 10:24:22.601 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/cluster/ws
+2018-09-27 10:24:22.603 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/ws', name='null', children=[09fbca8d-a484-4294-bab8-26aa6c875d76], context=null, stat=2504,2504,1537954897761,1537954897761,0,3,0,0,0,1,2513
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 10:24:22.605 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/ws/09fbca8d-a484-4294-bab8-26aa6c875d76', name='null', children=null, context=null, stat=2513,2513,1538015062582,1538015062582,0,0,0,100795353376292865,35,0,2513
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 56, 48, 48, 56, 125], watchedEvent=null, aclList=null}
+2018-09-27 10:24:22.605 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/ws/09fbca8d-a484-4294-bab8-26aa6c875d76', stat=2513,2513,1538015062582,1538015062582,0,0,0,100795353376292865,35,0,2513
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 56, 48, 48, 56, 125]}}
+2018-09-27 10:24:22.606 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/ws/09fbca8d-a484-4294-bab8-26aa6c875d76', name='null', children=[], context=null, stat=2513,2513,1538015062582,1538015062582,0,0,0,100795353376292865,35,0,2513
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 10:24:22.631 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/cluster/gs
+2018-09-27 10:24:22.633 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs', name='null', children=[6fc2ab72-72ce-4650-abe9-ad1e68152e0c], context=null, stat=2477,2477,1537928116833,1537928116833,0,9,0,0,0,1,2514
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 10:24:22.636 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs/6fc2ab72-72ce-4650-abe9-ad1e68152e0c', name='null', children=null, context=null, stat=2514,2514,1538015062612,1538015062612,0,0,0,100795353376292865,35,0,2514
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125], watchedEvent=null, aclList=null}
+2018-09-27 10:24:22.636 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/gs/6fc2ab72-72ce-4650-abe9-ad1e68152e0c', stat=2514,2514,1538015062612,1538015062612,0,0,0,100795353376292865,35,0,2514
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125]}}
+2018-09-27 10:24:22.637 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs/6fc2ab72-72ce-4650-abe9-ad1e68152e0c', name='null', children=[], context=null, stat=2514,2514,1538015062612,1538015062612,0,0,0,100795353376292865,35,0,2514
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 10:24:22.766 - [mp-admin-boss-6-1] DEBUG - com.mpush.tools.Utils - getInetAddress is null, getLocal=false
+2018-09-27 10:24:28.101 - [mp-gateway-work-5-1] DEBUG - io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2018-09-27 10:24:28.102 - [mp-gateway-work-5-1] DEBUG - io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2018-09-27 10:24:28.102 - [mp-gateway-work-5-1] DEBUG - io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2018-09-27 10:24:28.103 - [mp-gateway-work-5-1] DEBUG - io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2018-09-27 10:24:28.117 - [mp-gateway-work-5-1] DEBUG - io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2018-09-27 10:24:28.117 - [mp-gateway-work-5-1] DEBUG - i.n.u.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5e1e459a
+2018-09-27 10:24:28.123 - [mp-gateway-work-5-1] DEBUG - i.n.buffer.AdvancedLeakAwareByteBuf - -Dio.netty.leakDetection.acquireAndReleaseOnly: false
+2018-09-27 11:22:55.686 - [main] DEBUG - com.mpush.tools.Utils - getInetAddress is null, getLocal=false
+2018-09-27 11:22:55.845 - [main] DEBUG - com.mpush.tools.Utils - getInetAddress is null, getLocal=false
+2018-09-27 11:22:56.017 - [main] DEBUG - i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2018-09-27 11:22:56.018 - [main] DEBUG - i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2018-09-27 11:22:56.019 - [main] DEBUG - i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2018-09-27 11:22:56.143 - [main] DEBUG - o.a.curator.CuratorZookeeperClient - Starting
+2018-09-27 11:22:56.143 - [main] DEBUG - org.apache.curator.ConnectionState - Starting
+2018-09-27 11:22:56.143 - [main] DEBUG - org.apache.curator.ConnectionState - reset
+2018-09-27 11:22:56.420 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/', name='null', children=null, context=null, stat=2471,2471,1537928116282,1537928116282,0,1,0,0,0,1,2473
+, data=[], watchedEvent=null, aclList=null}
+2018-09-27 11:22:56.423 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/', stat=2471,2471,1537928116282,1537928116282,0,1,0,0,0,1,2473
+, data=[]}}
+2018-09-27 11:22:56.425 - [main] DEBUG - io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: paranoid
+2018-09-27 11:22:56.425 - [main] DEBUG - io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2018-09-27 11:22:56.427 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/', name='null', children=[cluster], context=null, stat=2471,2471,1537928116282,1537928116282,0,1,0,0,0,1,2473
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:22:56.429 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster', name='null', children=null, context=null, stat=2473,2473,1537928116680,1537928116680,0,3,0,0,0,3,2504
+, data=[], watchedEvent=null, aclList=null}
+2018-09-27 11:22:56.429 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster', stat=2473,2473,1537928116680,1537928116680,0,3,0,0,0,3,2504
+, data=[]}}
+2018-09-27 11:22:56.430 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster', name='null', children=[cs, gs, ws], context=null, stat=2473,2473,1537928116680,1537928116680,0,3,0,0,0,3,2504
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:22:56.432 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs', name='null', children=null, context=null, stat=2474,2474,1537928116720,1537928116720,0,10,0,0,0,0,2518
+, data=[], watchedEvent=null, aclList=null}
+2018-09-27 11:22:56.432 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/cs', stat=2474,2474,1537928116720,1537928116720,0,10,0,0,0,0,2518
+, data=[]}}
+2018-09-27 11:22:56.432 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs', name='null', children=[], context=null, stat=2474,2474,1537928116720,1537928116720,0,10,0,0,0,0,2518
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:22:56.433 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs', name='null', children=null, context=null, stat=2477,2477,1537928116833,1537928116833,0,10,0,0,0,0,2518
+, data=[], watchedEvent=null, aclList=null}
+2018-09-27 11:22:56.433 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/gs', stat=2477,2477,1537928116833,1537928116833,0,10,0,0,0,0,2518
+, data=[]}}
+2018-09-27 11:22:56.433 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs', name='null', children=[], context=null, stat=2477,2477,1537928116833,1537928116833,0,10,0,0,0,0,2518
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:22:56.433 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/ws', name='null', children=null, context=null, stat=2504,2504,1537954897761,1537954897761,0,4,0,0,0,0,2518
+, data=[], watchedEvent=null, aclList=null}
+2018-09-27 11:22:56.433 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/ws', stat=2504,2504,1537954897761,1537954897761,0,4,0,0,0,0,2518
+, data=[]}}
+2018-09-27 11:22:56.434 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/ws', name='null', children=[], context=null, stat=2504,2504,1537954897761,1537954897761,0,4,0,0,0,0,2518
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:22:56.434 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=INITIALIZED, data=null}
+2018-09-27 11:22:56.441 - [main] DEBUG - i.n.util.internal.PlatformDependent - Platform: Windows
+2018-09-27 11:22:56.443 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2018-09-27 11:22:56.443 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - Java version: 8
+2018-09-27 11:22:56.444 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2018-09-27 11:22:56.444 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2018-09-27 11:22:56.444 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2018-09-27 11:22:56.445 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - direct buffer constructor: available
+2018-09-27 11:22:56.445 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2018-09-27 11:22:56.445 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2018-09-27 11:22:56.445 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2018-09-27 11:22:56.445 - [main] DEBUG - i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2018-09-27 11:22:56.446 - [main] DEBUG - i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2018-09-27 11:22:56.446 - [main] DEBUG - i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2018-09-27 11:22:56.447 - [main] DEBUG - i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2018-09-27 11:22:56.447 - [main] DEBUG - i.n.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1895825408 bytes
+2018-09-27 11:22:56.447 - [main] DEBUG - i.n.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2018-09-27 11:22:56.448 - [main] DEBUG - io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2018-09-27 11:22:56.448 - [main] DEBUG - i.n.u.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@623a8092
+2018-09-27 11:22:56.454 - [main] DEBUG - i.n.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2018-09-27 11:22:56.478 - [main] DEBUG - i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2018-09-27 11:22:56.497 - [main] DEBUG - io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2018-09-27 11:22:56.497 - [main] DEBUG - io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2018-09-27 11:22:56.522 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2018-09-27 11:22:56.522 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2018-09-27 11:22:56.522 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2018-09-27 11:22:56.522 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2018-09-27 11:22:56.522 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2018-09-27 11:22:56.522 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2018-09-27 11:22:56.522 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2018-09-27 11:22:56.522 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2018-09-27 11:22:56.522 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2018-09-27 11:22:56.522 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2018-09-27 11:22:56.522 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2018-09-27 11:22:56.533 - [main] DEBUG - io.netty.channel.DefaultChannelId - -Dio.netty.processId: 5484 (auto-detected)
+2018-09-27 11:22:56.534 - [main] DEBUG - io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2018-09-27 11:22:56.534 - [main] DEBUG - io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2018-09-27 11:22:56.610 - [main] DEBUG - io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2018-09-27 11:22:56.611 - [main] DEBUG - io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2018-09-27 11:22:56.709 - [main] DEBUG - io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2018-09-27 11:22:56.724 - [main] DEBUG - io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2018-09-27 11:22:56.725 - [main] DEBUG - io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2018-09-27 11:22:56.725 - [main] DEBUG - io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2018-09-27 11:22:56.821 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/cluster/cs
+2018-09-27 11:22:56.822 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs', name='null', children=[caffdb13-4fc6-4c92-b1c3-0b8d8a103806], context=null, stat=2474,2474,1537928116720,1537928116720,0,11,0,0,0,1,2524
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:22:56.823 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs/caffdb13-4fc6-4c92-b1c3-0b8d8a103806', name='null', children=null, context=null, stat=2524,2524,1538018576804,1538018576804,0,0,0,100795582621089792,56,0,2524
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125], watchedEvent=null, aclList=null}
+2018-09-27 11:22:56.824 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/cs/caffdb13-4fc6-4c92-b1c3-0b8d8a103806', stat=2524,2524,1538018576804,1538018576804,0,0,0,100795582621089792,56,0,2524
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125]}}
+2018-09-27 11:22:56.824 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs/caffdb13-4fc6-4c92-b1c3-0b8d8a103806', name='null', children=[], context=null, stat=2524,2524,1538018576804,1538018576804,0,0,0,100795582621089792,56,0,2524
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:22:56.850 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/cluster/ws
+2018-09-27 11:22:56.852 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/ws', name='null', children=[25fc51e2-5ce5-47e8-85f6-ec591041a273], context=null, stat=2504,2504,1537954897761,1537954897761,0,5,0,0,0,1,2525
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:22:56.854 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/ws/25fc51e2-5ce5-47e8-85f6-ec591041a273', name='null', children=null, context=null, stat=2525,2525,1538018576826,1538018576826,0,0,0,100795582621089792,35,0,2525
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 56, 48, 48, 56, 125], watchedEvent=null, aclList=null}
+2018-09-27 11:22:56.854 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/ws/25fc51e2-5ce5-47e8-85f6-ec591041a273', stat=2525,2525,1538018576826,1538018576826,0,0,0,100795582621089792,35,0,2525
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 56, 48, 48, 56, 125]}}
+2018-09-27 11:22:56.854 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/ws/25fc51e2-5ce5-47e8-85f6-ec591041a273', name='null', children=[], context=null, stat=2525,2525,1538018576826,1538018576826,0,0,0,100795582621089792,35,0,2525
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:22:56.881 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/cluster/gs
+2018-09-27 11:22:56.882 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs', name='null', children=[10caf6b5-b5d5-4a5f-922f-05c7fd952400], context=null, stat=2477,2477,1537928116833,1537928116833,0,11,0,0,0,1,2526
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:22:56.884 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs/10caf6b5-b5d5-4a5f-922f-05c7fd952400', name='null', children=null, context=null, stat=2526,2526,1538018576860,1538018576860,0,0,0,100795582621089792,35,0,2526
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125], watchedEvent=null, aclList=null}
+2018-09-27 11:22:56.884 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/gs/10caf6b5-b5d5-4a5f-922f-05c7fd952400', stat=2526,2526,1538018576860,1538018576860,0,0,0,100795582621089792,35,0,2526
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125]}}
+2018-09-27 11:22:56.885 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs/10caf6b5-b5d5-4a5f-922f-05c7fd952400', name='null', children=[], context=null, stat=2526,2526,1538018576860,1538018576860,0,0,0,100795582621089792,35,0,2526
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:22:57.016 - [mp-admin-boss-6-1] DEBUG - com.mpush.tools.Utils - getInetAddress is null, getLocal=false
+2018-09-27 11:34:49.145 - [main] DEBUG - com.mpush.tools.Utils - getInetAddress is null, getLocal=false
+2018-09-27 11:34:49.306 - [main] DEBUG - com.mpush.tools.Utils - getInetAddress is null, getLocal=false
+2018-09-27 11:34:49.443 - [main] DEBUG - i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2018-09-27 11:34:49.444 - [main] DEBUG - i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2018-09-27 11:34:49.444 - [main] DEBUG - i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2018-09-27 11:34:49.546 - [main] DEBUG - o.a.curator.CuratorZookeeperClient - Starting
+2018-09-27 11:34:49.546 - [main] DEBUG - org.apache.curator.ConnectionState - Starting
+2018-09-27 11:34:49.546 - [main] DEBUG - org.apache.curator.ConnectionState - reset
+2018-09-27 11:34:49.788 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/', name='null', children=null, context=null, stat=2471,2471,1537928116282,1537928116282,0,1,0,0,0,1,2473
+, data=[], watchedEvent=null, aclList=null}
+2018-09-27 11:34:49.790 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/', stat=2471,2471,1537928116282,1537928116282,0,1,0,0,0,1,2473
+, data=[]}}
+2018-09-27 11:34:49.793 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/', name='null', children=[cluster], context=null, stat=2471,2471,1537928116282,1537928116282,0,1,0,0,0,1,2473
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:34:49.794 - [main] DEBUG - io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: paranoid
+2018-09-27 11:34:49.794 - [main] DEBUG - io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2018-09-27 11:34:49.794 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster', name='null', children=null, context=null, stat=2473,2473,1537928116680,1537928116680,0,3,0,0,0,3,2504
+, data=[], watchedEvent=null, aclList=null}
+2018-09-27 11:34:49.795 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster', stat=2473,2473,1537928116680,1537928116680,0,3,0,0,0,3,2504
+, data=[]}}
+2018-09-27 11:34:49.795 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster', name='null', children=[cs, gs, ws], context=null, stat=2473,2473,1537928116680,1537928116680,0,3,0,0,0,3,2504
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:34:49.796 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs', name='null', children=null, context=null, stat=2474,2474,1537928116720,1537928116720,0,11,0,0,0,1,2524
+, data=[], watchedEvent=null, aclList=null}
+2018-09-27 11:34:49.797 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/cs', stat=2474,2474,1537928116720,1537928116720,0,11,0,0,0,1,2524
+, data=[]}}
+2018-09-27 11:34:49.797 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs', name='null', children=[caffdb13-4fc6-4c92-b1c3-0b8d8a103806], context=null, stat=2474,2474,1537928116720,1537928116720,0,11,0,0,0,1,2524
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:34:49.798 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs', name='null', children=null, context=null, stat=2477,2477,1537928116833,1537928116833,0,11,0,0,0,1,2526
+, data=[], watchedEvent=null, aclList=null}
+2018-09-27 11:34:49.798 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/gs', stat=2477,2477,1537928116833,1537928116833,0,11,0,0,0,1,2526
+, data=[]}}
+2018-09-27 11:34:49.798 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs', name='null', children=[10caf6b5-b5d5-4a5f-922f-05c7fd952400], context=null, stat=2477,2477,1537928116833,1537928116833,0,11,0,0,0,1,2526
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:34:49.799 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/ws', name='null', children=null, context=null, stat=2504,2504,1537954897761,1537954897761,0,5,0,0,0,1,2525
+, data=[], watchedEvent=null, aclList=null}
+2018-09-27 11:34:49.799 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/ws', stat=2504,2504,1537954897761,1537954897761,0,5,0,0,0,1,2525
+, data=[]}}
+2018-09-27 11:34:49.799 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/ws', name='null', children=[25fc51e2-5ce5-47e8-85f6-ec591041a273], context=null, stat=2504,2504,1537954897761,1537954897761,0,5,0,0,0,1,2525
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:34:49.800 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs/caffdb13-4fc6-4c92-b1c3-0b8d8a103806', name='null', children=null, context=null, stat=2524,2524,1538018576804,1538018576804,0,0,0,100795582621089792,56,0,2524
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125], watchedEvent=null, aclList=null}
+2018-09-27 11:34:49.800 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/cs/caffdb13-4fc6-4c92-b1c3-0b8d8a103806', stat=2524,2524,1538018576804,1538018576804,0,0,0,100795582621089792,56,0,2524
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125]}}
+2018-09-27 11:34:49.800 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs/caffdb13-4fc6-4c92-b1c3-0b8d8a103806', name='null', children=[], context=null, stat=2524,2524,1538018576804,1538018576804,0,0,0,100795582621089792,56,0,2524
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:34:49.801 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs/10caf6b5-b5d5-4a5f-922f-05c7fd952400', name='null', children=null, context=null, stat=2526,2526,1538018576860,1538018576860,0,0,0,100795582621089792,35,0,2526
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125], watchedEvent=null, aclList=null}
+2018-09-27 11:34:49.801 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/gs/10caf6b5-b5d5-4a5f-922f-05c7fd952400', stat=2526,2526,1538018576860,1538018576860,0,0,0,100795582621089792,35,0,2526
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125]}}
+2018-09-27 11:34:49.802 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs/10caf6b5-b5d5-4a5f-922f-05c7fd952400', name='null', children=[], context=null, stat=2526,2526,1538018576860,1538018576860,0,0,0,100795582621089792,35,0,2526
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:34:49.802 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/ws/25fc51e2-5ce5-47e8-85f6-ec591041a273', name='null', children=null, context=null, stat=2525,2525,1538018576826,1538018576826,0,0,0,100795582621089792,35,0,2525
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 56, 48, 48, 56, 125], watchedEvent=null, aclList=null}
+2018-09-27 11:34:49.802 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/ws/25fc51e2-5ce5-47e8-85f6-ec591041a273', stat=2525,2525,1538018576826,1538018576826,0,0,0,100795582621089792,35,0,2525
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 56, 48, 48, 56, 125]}}
+2018-09-27 11:34:49.802 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/ws/25fc51e2-5ce5-47e8-85f6-ec591041a273', name='null', children=[], context=null, stat=2525,2525,1538018576826,1538018576826,0,0,0,100795582621089792,35,0,2525
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:34:49.802 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=INITIALIZED, data=null}
+2018-09-27 11:34:49.812 - [main] DEBUG - i.n.util.internal.PlatformDependent - Platform: Windows
+2018-09-27 11:34:49.813 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2018-09-27 11:34:49.814 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - Java version: 8
+2018-09-27 11:34:49.814 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2018-09-27 11:34:49.815 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2018-09-27 11:34:49.815 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2018-09-27 11:34:49.816 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - direct buffer constructor: available
+2018-09-27 11:34:49.816 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2018-09-27 11:34:49.816 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2018-09-27 11:34:49.816 - [main] DEBUG - i.n.u.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2018-09-27 11:34:49.816 - [main] DEBUG - i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2018-09-27 11:34:49.817 - [main] DEBUG - i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2018-09-27 11:34:49.817 - [main] DEBUG - i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2018-09-27 11:34:49.818 - [main] DEBUG - i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2018-09-27 11:34:49.818 - [main] DEBUG - i.n.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1895825408 bytes
+2018-09-27 11:34:49.818 - [main] DEBUG - i.n.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2018-09-27 11:34:49.819 - [main] DEBUG - io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2018-09-27 11:34:49.819 - [main] DEBUG - i.n.u.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@623a8092
+2018-09-27 11:34:49.825 - [main] DEBUG - i.n.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2018-09-27 11:34:49.848 - [main] DEBUG - i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2018-09-27 11:34:49.869 - [main] DEBUG - io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2018-09-27 11:34:49.869 - [main] DEBUG - io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2018-09-27 11:34:49.893 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2018-09-27 11:34:49.893 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2018-09-27 11:34:49.893 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2018-09-27 11:34:49.893 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2018-09-27 11:34:49.893 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2018-09-27 11:34:49.893 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2018-09-27 11:34:49.893 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2018-09-27 11:34:49.893 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2018-09-27 11:34:49.893 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2018-09-27 11:34:49.893 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2018-09-27 11:34:49.893 - [main] DEBUG - i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2018-09-27 11:34:49.904 - [main] DEBUG - io.netty.channel.DefaultChannelId - -Dio.netty.processId: 8560 (auto-detected)
+2018-09-27 11:34:49.905 - [main] DEBUG - io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2018-09-27 11:34:49.905 - [main] DEBUG - io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2018-09-27 11:34:49.971 - [main] DEBUG - io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2018-09-27 11:34:49.972 - [main] DEBUG - io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2018-09-27 11:34:50.064 - [main] DEBUG - io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2018-09-27 11:34:50.079 - [main] DEBUG - io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2018-09-27 11:34:50.079 - [main] DEBUG - io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2018-09-27 11:34:50.079 - [main] DEBUG - io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2018-09-27 11:34:50.232 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/cluster/cs
+2018-09-27 11:34:50.233 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs', name='null', children=[64627bda-c25f-4b9f-acaa-f9dd9e103e95, caffdb13-4fc6-4c92-b1c3-0b8d8a103806], context=null, stat=2474,2474,1537928116720,1537928116720,0,12,0,0,0,2,2528
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:34:50.235 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs/64627bda-c25f-4b9f-acaa-f9dd9e103e95', name='null', children=null, context=null, stat=2528,2528,1538019290168,1538019290168,0,0,0,100795582621089793,56,0,2528
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125], watchedEvent=null, aclList=null}
+2018-09-27 11:34:50.235 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/cs/64627bda-c25f-4b9f-acaa-f9dd9e103e95', stat=2528,2528,1538019290168,1538019290168,0,0,0,100795582621089793,56,0,2528
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125]}}
+2018-09-27 11:34:50.236 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs/64627bda-c25f-4b9f-acaa-f9dd9e103e95', name='null', children=[], context=null, stat=2528,2528,1538019290168,1538019290168,0,0,0,100795582621089793,56,0,2528
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:34:50.268 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/cluster/ws
+2018-09-27 11:34:50.269 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/ws', name='null', children=[bd8d6dcb-7072-4d56-b78b-d8e871306d67, 25fc51e2-5ce5-47e8-85f6-ec591041a273], context=null, stat=2504,2504,1537954897761,1537954897761,0,6,0,0,0,2,2529
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:34:50.270 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/ws/bd8d6dcb-7072-4d56-b78b-d8e871306d67', name='null', children=null, context=null, stat=2529,2529,1538019290239,1538019290239,0,0,0,100795582621089793,35,0,2529
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 56, 48, 48, 56, 125], watchedEvent=null, aclList=null}
+2018-09-27 11:34:50.271 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/ws/bd8d6dcb-7072-4d56-b78b-d8e871306d67', stat=2529,2529,1538019290239,1538019290239,0,0,0,100795582621089793,35,0,2529
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 56, 48, 48, 56, 125]}}
+2018-09-27 11:34:50.271 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/ws/bd8d6dcb-7072-4d56-b78b-d8e871306d67', name='null', children=[], context=null, stat=2529,2529,1538019290239,1538019290239,0,0,0,100795582621089793,35,0,2529
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:34:50.308 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/cluster/gs
+2018-09-27 11:34:50.310 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs', name='null', children=[ef7fc0b0-bcbe-4799-854d-2c878e8a718c, 10caf6b5-b5d5-4a5f-922f-05c7fd952400], context=null, stat=2477,2477,1537928116833,1537928116833,0,12,0,0,0,2,2530
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:34:50.311 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs/ef7fc0b0-bcbe-4799-854d-2c878e8a718c', name='null', children=null, context=null, stat=2530,2530,1538019290277,1538019290277,0,0,0,100795582621089793,35,0,2530
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125], watchedEvent=null, aclList=null}
+2018-09-27 11:34:50.311 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/gs/ef7fc0b0-bcbe-4799-854d-2c878e8a718c', stat=2530,2530,1538019290277,1538019290277,0,0,0,100795582621089793,35,0,2530
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125]}}
+2018-09-27 11:34:50.312 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs/ef7fc0b0-bcbe-4799-854d-2c878e8a718c', name='null', children=[], context=null, stat=2530,2530,1538019290277,1538019290277,0,0,0,100795582621089793,35,0,2530
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:34:50.450 - [mp-admin-boss-6-1] DEBUG - com.mpush.tools.Utils - getInetAddress is null, getLocal=false
+2018-09-27 11:34:52.026 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeDeleted path:/cluster/cs/caffdb13-4fc6-4c92-b1c3-0b8d8a103806
+2018-09-27 11:34:52.028 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_REMOVED, data=ChildData{path='/cluster/cs/caffdb13-4fc6-4c92-b1c3-0b8d8a103806', stat=2524,2524,1538018576804,1538018576804,0,0,0,100795582621089792,56,0,2524
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125]}}
+2018-09-27 11:34:52.028 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/cluster/cs
+2018-09-27 11:34:52.028 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeDeleted path:/cluster/ws/25fc51e2-5ce5-47e8-85f6-ec591041a273
+2018-09-27 11:34:52.028 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_REMOVED, data=ChildData{path='/cluster/ws/25fc51e2-5ce5-47e8-85f6-ec591041a273', stat=2525,2525,1538018576826,1538018576826,0,0,0,100795582621089792,35,0,2525
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 56, 48, 48, 56, 125]}}
+2018-09-27 11:34:52.029 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/cluster/ws
+2018-09-27 11:34:52.029 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeDeleted path:/cluster/gs/10caf6b5-b5d5-4a5f-922f-05c7fd952400
+2018-09-27 11:34:52.029 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_REMOVED, data=ChildData{path='/cluster/gs/10caf6b5-b5d5-4a5f-922f-05c7fd952400', stat=2526,2526,1538018576860,1538018576860,0,0,0,100795582621089792,35,0,2526
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125]}}
+2018-09-27 11:34:52.029 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/cluster/gs
+2018-09-27 11:34:52.029 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs', name='null', children=[64627bda-c25f-4b9f-acaa-f9dd9e103e95], context=null, stat=2474,2474,1537928116720,1537928116720,0,13,0,0,0,1,2531
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:34:52.030 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/ws', name='null', children=[bd8d6dcb-7072-4d56-b78b-d8e871306d67], context=null, stat=2504,2504,1537954897761,1537954897761,0,7,0,0,0,1,2531
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 11:34:52.030 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs', name='null', children=[ef7fc0b0-bcbe-4799-854d-2c878e8a718c], context=null, stat=2477,2477,1537928116833,1537928116833,0,13,0,0,0,1,2531
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 13:37:42.603 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-09-27 13:37:42.603 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-09-27 13:37:42.603 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-09-27 13:37:42.603 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-09-27 13:37:42.603 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-09-27 13:37:42.603 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-09-27 13:37:42.603 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-09-27 13:37:42.605 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Disconnected type:None path:null
+2018-09-27 13:37:42.629 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_SUSPENDED, data=null}
+2018-09-27 13:37:46.456 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-09-27 13:37:46.457 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-09-27 13:37:46.457 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-09-27 13:37:46.457 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-09-27 13:37:46.457 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-09-27 13:37:46.457 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-09-27 13:37:46.457 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-09-27 13:37:46.457 - [main-EventThread] DEBUG - org.apache.curator.ConnectionState - reset
+2018-09-27 13:37:46.458 - [main-EventThread] DEBUG - org.apache.zookeeper.ZooKeeper - Close called on already closed client
+2018-09-27 13:37:46.459 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:Expired type:None path:null
+2018-09-27 13:37:46.459 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_LOST, data=null}
+2018-09-27 13:37:46.734 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/', name='null', children=null, context=null, stat=2471,2471,1537928116282,1537928116282,0,1,0,0,0,1,2473
+, data=[], watchedEvent=null, aclList=null}
+2018-09-27 13:37:46.735 - [Curator-ConnectionStateManager-0] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=CONNECTION_RECONNECTED, data=null}
+2018-09-27 13:37:46.737 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/', name='null', children=[cluster], context=null, stat=2471,2471,1537928116282,1537928116282,0,1,0,0,0,1,2473
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 13:37:46.737 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster', name='null', children=null, context=null, stat=2473,2473,1537928116680,1537928116680,0,3,0,0,0,3,2504
+, data=[], watchedEvent=null, aclList=null}
+2018-09-27 13:37:46.737 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster', name='null', children=[cs, gs, ws], context=null, stat=2473,2473,1537928116680,1537928116680,0,3,0,0,0,3,2504
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 13:37:46.738 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs', name='null', children=null, context=null, stat=2477,2477,1537928116833,1537928116833,0,14,0,0,0,0,2532
+, data=[], watchedEvent=null, aclList=null}
+2018-09-27 13:37:46.738 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs', name='null', children=[], context=null, stat=2477,2477,1537928116833,1537928116833,0,14,0,0,0,0,2532
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 13:37:46.738 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=-101, path='/cluster/gs/ef7fc0b0-bcbe-4799-854d-2c878e8a718c', name='null', children=null, context=null, stat=null, data=null, watchedEvent=null, aclList=null}
+2018-09-27 13:37:46.738 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_REMOVED, data=ChildData{path='/cluster/gs/ef7fc0b0-bcbe-4799-854d-2c878e8a718c', stat=2530,2530,1538019290277,1538019290277,0,0,0,100795582621089793,35,0,2530
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125]}}
+2018-09-27 13:37:46.738 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=-101, path='/cluster/gs/ef7fc0b0-bcbe-4799-854d-2c878e8a718c', name='null', children=[], context=null, stat=null, data=null, watchedEvent=null, aclList=null}
+2018-09-27 13:37:46.738 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs', name='null', children=null, context=null, stat=2474,2474,1537928116720,1537928116720,0,14,0,0,0,0,2532
+, data=[], watchedEvent=null, aclList=null}
+2018-09-27 13:37:46.738 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs', name='null', children=[], context=null, stat=2474,2474,1537928116720,1537928116720,0,14,0,0,0,0,2532
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 13:37:46.738 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=-101, path='/cluster/cs/64627bda-c25f-4b9f-acaa-f9dd9e103e95', name='null', children=null, context=null, stat=null, data=null, watchedEvent=null, aclList=null}
+2018-09-27 13:37:46.739 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_REMOVED, data=ChildData{path='/cluster/cs/64627bda-c25f-4b9f-acaa-f9dd9e103e95', stat=2528,2528,1538019290168,1538019290168,0,0,0,100795582621089793,56,0,2528
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125]}}
+2018-09-27 13:37:46.739 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=-101, path='/cluster/cs/64627bda-c25f-4b9f-acaa-f9dd9e103e95', name='null', children=[], context=null, stat=null, data=null, watchedEvent=null, aclList=null}
+2018-09-27 13:37:46.739 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/ws', name='null', children=null, context=null, stat=2504,2504,1537954897761,1537954897761,0,8,0,0,0,0,2532
+, data=[], watchedEvent=null, aclList=null}
+2018-09-27 13:37:46.739 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/ws', name='null', children=[], context=null, stat=2504,2504,1537954897761,1537954897761,0,8,0,0,0,0,2532
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 13:37:46.739 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=-101, path='/cluster/ws/bd8d6dcb-7072-4d56-b78b-d8e871306d67', name='null', children=null, context=null, stat=null, data=null, watchedEvent=null, aclList=null}
+2018-09-27 13:37:46.739 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_REMOVED, data=ChildData{path='/cluster/ws/bd8d6dcb-7072-4d56-b78b-d8e871306d67', stat=2529,2529,1538019290239,1538019290239,0,0,0,100795582621089793,35,0,2529
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 56, 48, 48, 56, 125]}}
+2018-09-27 13:37:46.740 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=-101, path='/cluster/ws/bd8d6dcb-7072-4d56-b78b-d8e871306d67', name='null', children=[], context=null, stat=null, data=null, watchedEvent=null, aclList=null}
+2018-09-27 13:37:46.740 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=INITIALIZED, data=null}
+2018-09-27 13:37:46.847 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/cluster/cs
+2018-09-27 13:37:46.848 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs', name='null', children=[64627bda-c25f-4b9f-acaa-f9dd9e103e95], context=null, stat=2474,2474,1537928116720,1537928116720,0,15,0,0,0,1,2534
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 13:37:46.889 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/cluster/ws
+2018-09-27 13:37:46.890 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/cs/64627bda-c25f-4b9f-acaa-f9dd9e103e95', name='null', children=null, context=null, stat=2534,2534,1538026666740,1538026666740,0,0,0,100795582621089794,56,0,2534
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125], watchedEvent=null, aclList=null}
+2018-09-27 13:37:46.890 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/cs/64627bda-c25f-4b9f-acaa-f9dd9e103e95', stat=2534,2534,1538026666740,1538026666740,0,0,0,100795582621089794,56,0,2534
+, data=[123, 34, 97, 116, 116, 114, 115, 34, 58, 123, 34, 119, 101, 105, 103, 104, 116, 34, 58, 49, 125, 44, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 48, 125]}}
+2018-09-27 13:37:46.891 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/cs/64627bda-c25f-4b9f-acaa-f9dd9e103e95', name='null', children=[], context=null, stat=2534,2534,1538026666740,1538026666740,0,0,0,100795582621089794,56,0,2534
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 13:37:46.891 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/ws', name='null', children=[bd8d6dcb-7072-4d56-b78b-d8e871306d67], context=null, stat=2504,2504,1537954897761,1537954897761,0,9,0,0,0,1,2535
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 13:37:46.893 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/ws/bd8d6dcb-7072-4d56-b78b-d8e871306d67', name='null', children=null, context=null, stat=2535,2535,1538026666848,1538026666848,0,0,0,100795582621089794,35,0,2535
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 56, 48, 48, 56, 125], watchedEvent=null, aclList=null}
+2018-09-27 13:37:46.894 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/ws/bd8d6dcb-7072-4d56-b78b-d8e871306d67', stat=2535,2535,1538026666848,1538026666848,0,0,0,100795582621089794,35,0,2535
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 56, 48, 48, 56, 125]}}
+2018-09-27 13:37:46.894 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/ws/bd8d6dcb-7072-4d56-b78b-d8e871306d67', name='null', children=[], context=null, stat=2535,2535,1538026666848,1538026666848,0,0,0,100795582621089794,35,0,2535
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 13:37:46.946 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - process: WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/cluster/gs
+2018-09-27 13:37:46.947 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs', name='null', children=[ef7fc0b0-bcbe-4799-854d-2c878e8a718c], context=null, stat=2477,2477,1537928116833,1537928116833,0,15,0,0,0,1,2536
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 13:37:46.950 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=GET_DATA, resultCode=0, path='/cluster/gs/ef7fc0b0-bcbe-4799-854d-2c878e8a718c', name='null', children=null, context=null, stat=2536,2536,1538026666894,1538026666894,0,0,0,100795582621089794,35,0,2536
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125], watchedEvent=null, aclList=null}
+2018-09-27 13:37:46.950 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - publishEvent: TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/gs/ef7fc0b0-bcbe-4799-854d-2c878e8a718c', stat=2536,2536,1538026666894,1538026666894,0,0,0,100795582621089794,35,0,2536
+, data=[123, 34, 104, 111, 115, 116, 34, 58, 34, 49, 57, 50, 46, 49, 54, 56, 46, 49, 46, 57, 54, 34, 44, 34, 112, 111, 114, 116, 34, 58, 51, 48, 48, 49, 125]}}
+2018-09-27 13:37:46.950 - [main-EventThread] DEBUG - o.a.c.f.recipes.cache.TreeCache - processResult: CuratorEventImpl{type=CHILDREN, resultCode=0, path='/cluster/gs/ef7fc0b0-bcbe-4799-854d-2c878e8a718c', name='null', children=[], context=null, stat=2536,2536,1538026666894,1538026666894,0,0,0,100795582621089794,35,0,2536
+, data=null, watchedEvent=null, aclList=null}
+2018-09-27 18:34:28.556 - [main] DEBUG - com.mpush.tools.Utils - getInetAddress is null, getLocal=false
+2018-09-27 18:34:28.719 - [main] DEBUG - com.mpush.tools.Utils - getInetAddress is null, getLocal=false
+2018-09-27 18:34:28.961 - [main] DEBUG - i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2018-09-27 18:34:28.962 - [main] DEBUG - i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2018-09-27 18:34:28.962 - [main] DEBUG - i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2018-09-27 18:34:29.124 - [main] DEBUG - o.a.curator.CuratorZookeeperClient - Starting
+2018-09-27 18:34:29.124 - [main] DEBUG - org.apache.curator.ConnectionState - Starting
+2018-09-27 18:34:29.124 - [main] DEBUG - org.apache.curator.ConnectionState - reset
+2018-09-27 18:34:30.359 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 18:34:30.360 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 18:34:32.465 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2018-09-27 18:34:32.465 - [main-SendThread(127.0.0.1:2181)] DEBUG - o.a.zookeeper.ClientCnxnSocketNIO - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)

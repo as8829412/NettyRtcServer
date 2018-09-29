@@ -1,0 +1,664 @@
+2018-09-27 10:23:40.904 - [main] INFO  - o.a.c.f.imps.CuratorFrameworkImpl - Starting
+2018-09-27 10:23:40.916 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2018-09-27 10:23:40.917 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:host.name=PC-20180407DANB.lan
+2018-09-27 10:23:40.917 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_161
+2018-09-27 10:23:40.917 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+2018-09-27 10:23:40.917 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.home=C:\Program Files\Java\jdk1.8.0_161\jre
+2018-09-27 10:23:40.917 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;E:\ideWork\NettyRtcDemo\target\classes;C:\Users\Administrator\.m2\repository\io\netty\netty-all\4.1.29.Final\netty-all-4.1.29.Final.jar;C:\Users\Administrator\.m2\repository\net\sf\json-lib\json-lib\2.4\json-lib-2.4-jdk15.jar;C:\Users\Administrator\.m2\repository\commons-beanutils\commons-beanutils\1.8.0\commons-beanutils-1.8.0.jar;C:\Users\Administrator\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Administrator\.m2\repository\commons-lang\commons-lang\2.5\commons-lang-2.5.jar;C:\Users\Administrator\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\Administrator\.m2\repository\net\sf\ezmorph\ezmorph\1.0.6\ezmorph-1.0.6.jar;C:\Users\Administrator\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Administrator\.m2\repository\com\alibaba\druid\1.1.11\druid-1.1.11.jar;C:\Users\Administrator\.m2\repository\mysql\mysql-connector-java\5.1.35\mysql-connector-java-5.1.35.jar;C:\Users\Administrator\.m2\repository\commons-dbutils\commons-dbutils\1.7\commons-dbutils-1.7.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-netty\0.8.0\mpush-netty-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-tools\0.8.0\mpush-tools-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-api\0.8.0\mpush-api-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\Administrator\.m2\repository\com\alibaba\fastjson\1.2.36\fastjson-1.2.36.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-lang3\3.6\commons-lang3-3.6.jar;C:\Users\Administrator\.m2\repository\com\typesafe\config\1.3.1\config-1.3.1.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\Administrator\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Administrator\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Administrator\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-transport\4.1.8.Final\netty-transport-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-buffer\4.1.8.Final\netty-buffer-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-resolver\4.1.8.Final\netty-resolver-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-codec\4.1.8.Final\netty-codec-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-transport-native-epoll\4.1.8.Final\netty-transport-native-epoll-4.1.8.Final-linux-x86_64.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-common\4.1.8.Final\netty-common-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-codec-http\4.1.8.Final\netty-codec-http-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-handler\4.1.8.Final\netty-handler-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-transport-udt\4.1.8.Final\netty-transport-udt-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\com\barchart\udt\barchart-udt-bundle\2.3.0\barchart-udt-bundle-2.3.0.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-transport-sctp\4.1.8.Final\netty-transport-sctp-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-boot\0.8.0\mpush-boot-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-core\0.8.0\mpush-core-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-monitor\0.8.0\mpush-monitor-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-cache\0.8.0\mpush-cache-0.8.0.jar;C:\Users\Administrator\.m2\repository\redis\clients\jedis\2.9.0\jedis-2.9.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-pool2\2.4.2\commons-pool2-2.4.2.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-zk\0.8.0\mpush-zk-0.8.0.jar;C:\Users\Administrator\.m2\repository\org\apache\curator\curator-recipes\2.11.1\curator-recipes-2.11.1.jar;C:\Users\Administrator\.m2\repository\org\apache\curator\curator-framework\2.11.1\curator-framework-2.11.1.jar;C:\Users\Administrator\.m2\repository\org\apache\curator\curator-client\2.11.1\curator-client-2.11.1.jar;C:\Users\Administrator\.m2\repository\org\apache\zookeeper\zookeeper\3.4.8\zookeeper-3.4.8.jar;C:\Users\Administrator\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\Administrator\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\Administrator\.m2\repository\org\apache\curator\curator-x-discovery\2.11.1\curator-x-discovery-2.11.1.jar;C:\Users\Administrator\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Users\Administrator\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-client\0.8.0\mpush-client-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-common\0.8.0\mpush-common-0.8.0.jar;E:\tools\IntelliJ IDEA 2018.2.3\lib\idea_rt.jar
+2018-09-27 10:23:40.917 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\down\depot_tools;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\Program Files\nodejs\;E:\Program Files\PuTTY\;E:\tools\apache-maven-3.5.4\bin;;d:\Program Files\Microsoft VS Code\bin;E:\Program Files\TortoiseSVN\bin;C:\Users\Administrator\AppData\Roaming\npm;.
+2018-09-27 10:23:40.917 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2018-09-27 10:23:40.917 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+2018-09-27 10:23:40.917 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 7
+2018-09-27 10:23:40.917 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
+2018-09-27 10:23:40.917 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:os.version=6.1
+2018-09-27 10:23:40.917 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
+2018-09-27 10:23:40.917 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
+2018-09-27 10:23:40.917 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\ideWork\NettyRtcDemo
+2018-09-27 10:23:40.918 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=5000 watcher=org.apache.curator.ConnectionState@9597028
+2018-09-27 10:24:04.113 - [main] INFO  - o.a.c.f.imps.CuratorFrameworkImpl - Starting
+2018-09-27 10:24:04.123 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2018-09-27 10:24:04.124 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:host.name=PC-20180407DANB.lan
+2018-09-27 10:24:04.124 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_161
+2018-09-27 10:24:04.124 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+2018-09-27 10:24:04.124 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.home=C:\Program Files\Java\jdk1.8.0_161\jre
+2018-09-27 10:24:04.124 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;E:\ideWork\NettyRtcDemo\target\classes;C:\Users\Administrator\.m2\repository\io\netty\netty-all\4.1.29.Final\netty-all-4.1.29.Final.jar;C:\Users\Administrator\.m2\repository\net\sf\json-lib\json-lib\2.4\json-lib-2.4-jdk15.jar;C:\Users\Administrator\.m2\repository\commons-beanutils\commons-beanutils\1.8.0\commons-beanutils-1.8.0.jar;C:\Users\Administrator\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Administrator\.m2\repository\commons-lang\commons-lang\2.5\commons-lang-2.5.jar;C:\Users\Administrator\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\Administrator\.m2\repository\net\sf\ezmorph\ezmorph\1.0.6\ezmorph-1.0.6.jar;C:\Users\Administrator\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Administrator\.m2\repository\com\alibaba\druid\1.1.11\druid-1.1.11.jar;C:\Users\Administrator\.m2\repository\mysql\mysql-connector-java\5.1.35\mysql-connector-java-5.1.35.jar;C:\Users\Administrator\.m2\repository\commons-dbutils\commons-dbutils\1.7\commons-dbutils-1.7.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-netty\0.8.0\mpush-netty-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-tools\0.8.0\mpush-tools-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-api\0.8.0\mpush-api-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\Administrator\.m2\repository\com\alibaba\fastjson\1.2.36\fastjson-1.2.36.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-lang3\3.6\commons-lang3-3.6.jar;C:\Users\Administrator\.m2\repository\com\typesafe\config\1.3.1\config-1.3.1.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\Administrator\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Administrator\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Administrator\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-transport\4.1.8.Final\netty-transport-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-buffer\4.1.8.Final\netty-buffer-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-resolver\4.1.8.Final\netty-resolver-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-codec\4.1.8.Final\netty-codec-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-transport-native-epoll\4.1.8.Final\netty-transport-native-epoll-4.1.8.Final-linux-x86_64.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-common\4.1.8.Final\netty-common-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-codec-http\4.1.8.Final\netty-codec-http-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-handler\4.1.8.Final\netty-handler-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-transport-udt\4.1.8.Final\netty-transport-udt-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\com\barchart\udt\barchart-udt-bundle\2.3.0\barchart-udt-bundle-2.3.0.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-transport-sctp\4.1.8.Final\netty-transport-sctp-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-boot\0.8.0\mpush-boot-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-core\0.8.0\mpush-core-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-monitor\0.8.0\mpush-monitor-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-cache\0.8.0\mpush-cache-0.8.0.jar;C:\Users\Administrator\.m2\repository\redis\clients\jedis\2.9.0\jedis-2.9.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-pool2\2.4.2\commons-pool2-2.4.2.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-zk\0.8.0\mpush-zk-0.8.0.jar;C:\Users\Administrator\.m2\repository\org\apache\curator\curator-recipes\2.11.1\curator-recipes-2.11.1.jar;C:\Users\Administrator\.m2\repository\org\apache\curator\curator-framework\2.11.1\curator-framework-2.11.1.jar;C:\Users\Administrator\.m2\repository\org\apache\curator\curator-client\2.11.1\curator-client-2.11.1.jar;C:\Users\Administrator\.m2\repository\org\apache\zookeeper\zookeeper\3.4.8\zookeeper-3.4.8.jar;C:\Users\Administrator\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\Administrator\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\Administrator\.m2\repository\org\apache\curator\curator-x-discovery\2.11.1\curator-x-discovery-2.11.1.jar;C:\Users\Administrator\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Users\Administrator\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-client\0.8.0\mpush-client-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-common\0.8.0\mpush-common-0.8.0.jar;E:\tools\IntelliJ IDEA 2018.2.3\lib\idea_rt.jar
+2018-09-27 10:24:04.124 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\down\depot_tools;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\Program Files\nodejs\;E:\Program Files\PuTTY\;E:\tools\apache-maven-3.5.4\bin;;d:\Program Files\Microsoft VS Code\bin;E:\Program Files\TortoiseSVN\bin;C:\Users\Administrator\AppData\Roaming\npm;.
+2018-09-27 10:24:04.124 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2018-09-27 10:24:04.124 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+2018-09-27 10:24:04.124 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 7
+2018-09-27 10:24:04.124 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
+2018-09-27 10:24:04.124 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:os.version=6.1
+2018-09-27 10:24:04.124 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
+2018-09-27 10:24:04.124 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
+2018-09-27 10:24:04.124 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\ideWork\NettyRtcDemo
+2018-09-27 10:24:04.125 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=5000 watcher=org.apache.curator.ConnectionState@2b662a77
+2018-09-27 10:24:04.488 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: CONNECTED
+2018-09-27 10:24:04.775 - [main] INFO  - com.mpush.client.push.PushRequest - push request offline end, cs, null, Push-Time-Line[0](ms){end}
+2018-09-27 10:24:22.952 - [mp-event-p-1-t-1] INFO  - c.m.c.g.c.GatewayTCPConnectionFactory - one gateway client connect success, hostAndPort=192.168.1.96:3001, conn=[channel=[id: 0xbc795f1f, L:/192.168.1.96:51474 - R:/192.168.1.96:3001], context=, status=1, lastReadTime=1538015062949, lastWriteTime=0]
+2018-09-27 10:24:29.230 - [main] INFO  - o.a.c.f.imps.CuratorFrameworkImpl - Starting
+2018-09-27 10:24:29.241 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2018-09-27 10:24:29.241 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:host.name=PC-20180407DANB.lan
+2018-09-27 10:24:29.241 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_161
+2018-09-27 10:24:29.241 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+2018-09-27 10:24:29.241 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.home=C:\Program Files\Java\jdk1.8.0_161\jre
+2018-09-27 10:24:29.241 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;E:\ideWork\NettyRtcDemo\target\classes;C:\Users\Administrator\.m2\repository\io\netty\netty-all\4.1.29.Final\netty-all-4.1.29.Final.jar;C:\Users\Administrator\.m2\repository\net\sf\json-lib\json-lib\2.4\json-lib-2.4-jdk15.jar;C:\Users\Administrator\.m2\repository\commons-beanutils\commons-beanutils\1.8.0\commons-beanutils-1.8.0.jar;C:\Users\Administrator\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Administrator\.m2\repository\commons-lang\commons-lang\2.5\commons-lang-2.5.jar;C:\Users\Administrator\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\Administrator\.m2\repository\net\sf\ezmorph\ezmorph\1.0.6\ezmorph-1.0.6.jar;C:\Users\Administrator\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Administrator\.m2\repository\com\alibaba\druid\1.1.11\druid-1.1.11.jar;C:\Users\Administrator\.m2\repository\mysql\mysql-connector-java\5.1.35\mysql-connector-java-5.1.35.jar;C:\Users\Administrator\.m2\repository\commons-dbutils\commons-dbutils\1.7\commons-dbutils-1.7.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-netty\0.8.0\mpush-netty-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-tools\0.8.0\mpush-tools-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-api\0.8.0\mpush-api-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\Administrator\.m2\repository\com\alibaba\fastjson\1.2.36\fastjson-1.2.36.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-lang3\3.6\commons-lang3-3.6.jar;C:\Users\Administrator\.m2\repository\com\typesafe\config\1.3.1\config-1.3.1.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\Administrator\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Administrator\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Administrator\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-transport\4.1.8.Final\netty-transport-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-buffer\4.1.8.Final\netty-buffer-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-resolver\4.1.8.Final\netty-resolver-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-codec\4.1.8.Final\netty-codec-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-transport-native-epoll\4.1.8.Final\netty-transport-native-epoll-4.1.8.Final-linux-x86_64.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-common\4.1.8.Final\netty-common-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-codec-http\4.1.8.Final\netty-codec-http-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-handler\4.1.8.Final\netty-handler-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-transport-udt\4.1.8.Final\netty-transport-udt-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\com\barchart\udt\barchart-udt-bundle\2.3.0\barchart-udt-bundle-2.3.0.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-transport-sctp\4.1.8.Final\netty-transport-sctp-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-boot\0.8.0\mpush-boot-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-core\0.8.0\mpush-core-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-monitor\0.8.0\mpush-monitor-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-cache\0.8.0\mpush-cache-0.8.0.jar;C:\Users\Administrator\.m2\repository\redis\clients\jedis\2.9.0\jedis-2.9.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-pool2\2.4.2\commons-pool2-2.4.2.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-zk\0.8.0\mpush-zk-0.8.0.jar;C:\Users\Administrator\.m2\repository\org\apache\curator\curator-recipes\2.11.1\curator-recipes-2.11.1.jar;C:\Users\Administrator\.m2\repository\org\apache\curator\curator-framework\2.11.1\curator-framework-2.11.1.jar;C:\Users\Administrator\.m2\repository\org\apache\curator\curator-client\2.11.1\curator-client-2.11.1.jar;C:\Users\Administrator\.m2\repository\org\apache\zookeeper\zookeeper\3.4.8\zookeeper-3.4.8.jar;C:\Users\Administrator\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\Administrator\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\Administrator\.m2\repository\org\apache\curator\curator-x-discovery\2.11.1\curator-x-discovery-2.11.1.jar;C:\Users\Administrator\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Users\Administrator\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-client\0.8.0\mpush-client-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-common\0.8.0\mpush-common-0.8.0.jar;E:\tools\IntelliJ IDEA 2018.2.3\lib\idea_rt.jar
+2018-09-27 10:24:29.241 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\down\depot_tools;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\Program Files\nodejs\;E:\Program Files\PuTTY\;E:\tools\apache-maven-3.5.4\bin;;d:\Program Files\Microsoft VS Code\bin;E:\Program Files\TortoiseSVN\bin;C:\Users\Administrator\AppData\Roaming\npm;.
+2018-09-27 10:24:29.241 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2018-09-27 10:24:29.241 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+2018-09-27 10:24:29.241 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 7
+2018-09-27 10:24:29.241 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
+2018-09-27 10:24:29.241 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:os.version=6.1
+2018-09-27 10:24:29.241 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
+2018-09-27 10:24:29.241 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
+2018-09-27 10:24:29.241 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\ideWork\NettyRtcDemo
+2018-09-27 10:24:29.242 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=5000 watcher=org.apache.curator.ConnectionState@2b662a77
+2018-09-27 10:24:29.528 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: CONNECTED
+2018-09-27 10:24:30.042 - [mp-event-p-1-t-1] INFO  - c.m.c.g.c.GatewayTCPConnectionFactory - one gateway client connect success, hostAndPort=192.168.1.96:3001, conn=[channel=[id: 0x15816614, L:/192.168.1.96:51502 - R:/192.168.1.96:3001], context=, status=1, lastReadTime=1538015070039, lastWriteTime=0]
+2018-09-27 10:24:30.048 - [main] INFO  - com.mpush.client.push.PushRequest - push request offline end, cs, null, Push-Time-Line[0](ms){end}
+2018-09-27 11:06:41.172 - [main] INFO  - o.a.c.f.imps.CuratorFrameworkImpl - Starting
+2018-09-27 11:06:41.182 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2018-09-27 11:06:41.182 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:host.name=PC-20180407DANB.lan
+2018-09-27 11:06:41.182 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_161
+2018-09-27 11:06:41.182 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+2018-09-27 11:06:41.182 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.home=C:\Program Files\Java\jdk1.8.0_161\jre
+2018-09-27 11:06:41.182 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;E:\ideWork\NettyRtcDemo\target\classes;C:\Users\Administrator\.m2\repository\io\netty\netty-all\4.1.29.Final\netty-all-4.1.29.Final.jar;C:\Users\Administrator\.m2\repository\net\sf\json-lib\json-lib\2.4\json-lib-2.4-jdk15.jar;C:\Users\Administrator\.m2\repository\commons-beanutils\commons-beanutils\1.8.0\commons-beanutils-1.8.0.jar;C:\Users\Administrator\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Administrator\.m2\repository\commons-lang\commons-lang\2.5\commons-lang-2.5.jar;C:\Users\Administrator\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\Administrator\.m2\repository\net\sf\ezmorph\ezmorph\1.0.6\ezmorph-1.0.6.jar;C:\Users\Administrator\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Administrator\.m2\repository\com\alibaba\druid\1.1.11\druid-1.1.11.jar;C:\Users\Administrator\.m2\repository\mysql\mysql-connector-java\5.1.35\mysql-connector-java-5.1.35.jar;C:\Users\Administrator\.m2\repository\commons-dbutils\commons-dbutils\1.7\commons-dbutils-1.7.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-netty\0.8.0\mpush-netty-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-tools\0.8.0\mpush-tools-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-api\0.8.0\mpush-api-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\Administrator\.m2\repository\com\alibaba\fastjson\1.2.36\fastjson-1.2.36.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-lang3\3.6\commons-lang3-3.6.jar;C:\Users\Administrator\.m2\repository\com\typesafe\config\1.3.1\config-1.3.1.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\Administrator\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Administrator\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Administrator\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-transport\4.1.8.Final\netty-transport-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-buffer\4.1.8.Final\netty-buffer-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-resolver\4.1.8.Final\netty-resolver-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-codec\4.1.8.Final\netty-codec-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-transport-native-epoll\4.1.8.Final\netty-transport-native-epoll-4.1.8.Final-linux-x86_64.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-common\4.1.8.Final\netty-common-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-codec-http\4.1.8.Final\netty-codec-http-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-handler\4.1.8.Final\netty-handler-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-transport-udt\4.1.8.Final\netty-transport-udt-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\com\barchart\udt\barchart-udt-bundle\2.3.0\barchart-udt-bundle-2.3.0.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-transport-sctp\4.1.8.Final\netty-transport-sctp-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-boot\0.8.0\mpush-boot-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-core\0.8.0\mpush-core-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-monitor\0.8.0\mpush-monitor-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-cache\0.8.0\mpush-cache-0.8.0.jar;C:\Users\Administrator\.m2\repository\redis\clients\jedis\2.9.0\jedis-2.9.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-pool2\2.4.2\commons-pool2-2.4.2.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-zk\0.8.0\mpush-zk-0.8.0.jar;C:\Users\Administrator\.m2\repository\org\apache\curator\curator-recipes\2.11.1\curator-recipes-2.11.1.jar;C:\Users\Administrator\.m2\repository\org\apache\curator\curator-framework\2.11.1\curator-framework-2.11.1.jar;C:\Users\Administrator\.m2\repository\org\apache\curator\curator-client\2.11.1\curator-client-2.11.1.jar;C:\Users\Administrator\.m2\repository\org\apache\zookeeper\zookeeper\3.4.8\zookeeper-3.4.8.jar;C:\Users\Administrator\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\Administrator\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\Administrator\.m2\repository\org\apache\curator\curator-x-discovery\2.11.1\curator-x-discovery-2.11.1.jar;C:\Users\Administrator\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Users\Administrator\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-client\0.8.0\mpush-client-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-common\0.8.0\mpush-common-0.8.0.jar;E:\tools\IntelliJ IDEA 2018.2.3\lib\idea_rt.jar
+2018-09-27 11:06:41.182 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\down\depot_tools;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\Program Files\nodejs\;E:\Program Files\PuTTY\;E:\tools\apache-maven-3.5.4\bin;;d:\Program Files\Microsoft VS Code\bin;E:\Program Files\TortoiseSVN\bin;C:\Users\Administrator\AppData\Roaming\npm;.
+2018-09-27 11:06:41.182 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2018-09-27 11:06:41.182 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+2018-09-27 11:06:41.182 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 7
+2018-09-27 11:06:41.182 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
+2018-09-27 11:06:41.183 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:os.version=6.1
+2018-09-27 11:06:41.183 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
+2018-09-27 11:06:41.183 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
+2018-09-27 11:06:41.183 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\ideWork\NettyRtcDemo
+2018-09-27 11:06:41.183 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=5000 watcher=org.apache.curator.ConnectionState@2b662a77
+2018-09-27 11:06:48.353 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: CONNECTED
+2018-09-27 11:06:48.597 - [main] INFO  - com.mpush.client.push.PushRequest - push request offline end, cs, null, Push-Time-Line[0](ms){end}
+2018-09-27 11:10:02.589 - [main] INFO  - o.a.c.f.imps.CuratorFrameworkImpl - Starting
+2018-09-27 11:10:02.600 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2018-09-27 11:10:02.600 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:host.name=PC-20180407DANB.lan
+2018-09-27 11:10:02.600 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_161
+2018-09-27 11:10:02.600 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+2018-09-27 11:10:02.600 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.home=C:\Program Files\Java\jdk1.8.0_161\jre
+2018-09-27 11:10:02.600 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;E:\ideWork\NettyRtcDemo\target\classes;C:\Users\Administrator\.m2\repository\io\netty\netty-all\4.1.29.Final\netty-all-4.1.29.Final.jar;C:\Users\Administrator\.m2\repository\net\sf\json-lib\json-lib\2.4\json-lib-2.4-jdk15.jar;C:\Users\Administrator\.m2\repository\commons-beanutils\commons-beanutils\1.8.0\commons-beanutils-1.8.0.jar;C:\Users\Administrator\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Administrator\.m2\repository\commons-lang\commons-lang\2.5\commons-lang-2.5.jar;C:\Users\Administrator\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\Administrator\.m2\repository\net\sf\ezmorph\ezmorph\1.0.6\ezmorph-1.0.6.jar;C:\Users\Administrator\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Administrator\.m2\repository\com\alibaba\druid\1.1.11\druid-1.1.11.jar;C:\Users\Administrator\.m2\repository\mysql\mysql-connector-java\5.1.35\mysql-connector-java-5.1.35.jar;C:\Users\Administrator\.m2\repository\commons-dbutils\commons-dbutils\1.7\commons-dbutils-1.7.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-netty\0.8.0\mpush-netty-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-tools\0.8.0\mpush-tools-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-api\0.8.0\mpush-api-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\Administrator\.m2\repository\com\alibaba\fastjson\1.2.36\fastjson-1.2.36.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-lang3\3.6\commons-lang3-3.6.jar;C:\Users\Administrator\.m2\repository\com\typesafe\config\1.3.1\config-1.3.1.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\Administrator\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Administrator\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Administrator\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-transport\4.1.8.Final\netty-transport-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-buffer\4.1.8.Final\netty-buffer-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-resolver\4.1.8.Final\netty-resolver-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-codec\4.1.8.Final\netty-codec-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-transport-native-epoll\4.1.8.Final\netty-transport-native-epoll-4.1.8.Final-linux-x86_64.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-common\4.1.8.Final\netty-common-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-codec-http\4.1.8.Final\netty-codec-http-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-handler\4.1.8.Final\netty-handler-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-transport-udt\4.1.8.Final\netty-transport-udt-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\com\barchart\udt\barchart-udt-bundle\2.3.0\barchart-udt-bundle-2.3.0.jar;C:\Users\Administrator\.m2\repository\io\netty\netty-transport-sctp\4.1.8.Final\netty-transport-sctp-4.1.8.Final.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-boot\0.8.0\mpush-boot-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-core\0.8.0\mpush-core-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-monitor\0.8.0\mpush-monitor-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-cache\0.8.0\mpush-cache-0.8.0.jar;C:\Users\Administrator\.m2\repository\redis\clients\jedis\2.9.0\jedis-2.9.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-pool2\2.4.2\commons-pool2-2.4.2.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-zk\0.8.0\mpush-zk-0.8.0.jar;C:\Users\Administrator\.m2\repository\org\apache\curator\curator-recipes\2.11.1\curator-recipes-2.11.1.jar;C:\Users\Administrator\.m2\repository\org\apache\curator\curator-framework\2.11.1\curator-framework-2.11.1.jar;C:\Users\Administrator\.m2\repository\org\apache\curator\curator-client\2.11.1\curator-client-2.11.1.jar;C:\Users\Administrator\.m2\repository\org\apache\zookeeper\zookeeper\3.4.8\zookeeper-3.4.8.jar;C:\Users\Administrator\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\Administrator\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\Administrator\.m2\repository\org\apache\curator\curator-x-discovery\2.11.1\curator-x-discovery-2.11.1.jar;C:\Users\Administrator\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Users\Administrator\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-client\0.8.0\mpush-client-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\mpusher\mpush-common\0.8.0\mpush-common-0.8.0.jar;E:\tools\IntelliJ IDEA 2018.2.3\lib\idea_rt.jar
+2018-09-27 11:10:02.600 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\down\depot_tools;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\Program Files\nodejs\;E:\Program Files\PuTTY\;E:\tools\apache-maven-3.5.4\bin;;d:\Program Files\Microsoft VS Code\bin;E:\Program Files\TortoiseSVN\bin;C:\Users\Administrator\AppData\Roaming\npm;.
+2018-09-27 11:10:02.600 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2018-09-27 11:10:02.600 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+2018-09-27 11:10:02.600 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 7
+2018-09-27 11:10:02.600 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
+2018-09-27 11:10:02.600 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:os.version=6.1
+2018-09-27 11:10:02.600 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:user.name=Administrator
+2018-09-27 11:10:02.600 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\Administrator
+2018-09-27 11:10:02.600 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Client environment:user.dir=E:\ideWork\NettyRtcDemo
+2018-09-27 11:10:02.601 - [main] INFO  - org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=5000 watcher=org.apache.curator.ConnectionState@2b662a77
+2018-09-27 11:10:02.950 - [main-EventThread] INFO  - o.a.c.f.s.ConnectionStateManager - State change: CONNECTED
+2018-09-27 11:10:03.177 - [main] INFO  - com.mpush.client.push.PushRequest - push request offline end, cs, null, Push-Time-Line[0](ms){end}
+2018-09-27 14:21:51.306 - [main] INFO  - netty.NettyServer - Http Server listening on 8005
+2018-09-27 14:22:32.597 - [nioEventLoopGroup-3-1] INFO  - netty.NettyServerHandller - 客户端与服务端连接开启，客户端remoteAddress：/0:0:0:0:0:0:0:1:61912
+2018-09-27 14:23:25.932 - [main] INFO  - netty.NettyServer - Http Server listening on 8005
+2018-09-27 14:23:37.183 - [nioEventLoopGroup-3-1] INFO  - i.n.h.c.h.w.WebSocketServerHandshaker - 客户端与服务端连接开启，客户端remoteAddress：/0:0:0:0:0:0:0:1:62047
+2018-09-27 14:26:02.888 - [nioEventLoopGroup-3-2] INFO  - i.n.h.c.h.w.WebSocketServerHandshaker - 客户端与服务端连接开启，客户端remoteAddress：/0:0:0:0:0:0:0:1:62312
+2018-09-27 14:30:54.362 - [main] INFO  - netty.NettyServer - Http Server listening on 8005
+2018-09-27 14:30:58.061 - [nioEventLoopGroup-3-1] INFO  - i.n.h.c.h.w.WebSocketServerHandshaker - 客户端与服务端连接开启，客户端remoteAddress：/0:0:0:0:0:0:0:1:62790
+2018-09-27 14:31:00.824 - [nioEventLoopGroup-3-2] INFO  - i.n.h.c.h.w.WebSocketServerHandshaker - 客户端与服务端连接开启，客户端remoteAddress：/0:0:0:0:0:0:0:1:62797
+2018-09-27 14:31:48.698 - [main] INFO  - netty.NettyServer - Http Server listening on 8005
+2018-09-27 14:31:49.708 - [nioEventLoopGroup-3-1] INFO  - i.n.h.c.h.w.WebSocketServerHandshaker - 客户端与服务端连接开启，客户端remoteAddress：/0:0:0:0:0:0:0:1:62907
+2018-09-27 14:31:52.447 - [nioEventLoopGroup-3-2] INFO  - i.n.h.c.h.w.WebSocketServerHandshaker - 客户端与服务端连接开启，客户端remoteAddress：/0:0:0:0:0:0:0:1:62912
+2018-09-27 14:32:15.468 - [main] INFO  - netty.NettyServer - Http Server listening on 8005
+2018-09-27 14:32:16.799 - [nioEventLoopGroup-3-1] INFO  - i.n.h.c.h.w.WebSocketServerHandshaker - 客户端与服务端连接开启，客户端remoteAddress：/0:0:0:0:0:0:0:1:62988
+2018-09-27 14:32:19.429 - [nioEventLoopGroup-3-2] INFO  - i.n.h.c.h.w.WebSocketServerHandshaker - 客户端与服务端连接开启，客户端remoteAddress：/0:0:0:0:0:0:0:1:62993
+2018-09-27 14:35:05.388 - [main] INFO  - netty.NettyServer - Http Server listening on 8005
+2018-09-27 14:35:08.221 - [nioEventLoopGroup-3-1] INFO  - i.n.h.c.h.w.WebSocketServerHandshaker - 客户端与服务端连接开启，客户端remoteAddress：/0:0:0:0:0:0:0:1:63278
+2018-09-27 14:35:10.817 - [nioEventLoopGroup-3-2] INFO  - i.n.h.c.h.w.WebSocketServerHandshaker - 客户端与服务端连接开启，客户端remoteAddress：/0:0:0:0:0:0:0:1:63283
+2018-09-27 14:42:08.038 - [main] INFO  - netty.NettyServer - Http Server listening on 8005
+2018-09-27 14:42:10.155 - [nioEventLoopGroup-3-1] INFO  - i.n.h.c.h.w.WebSocketServerHandshaker - 客户端与服务端连接开启，客户端remoteAddress：/0:0:0:0:0:0:0:1:63959
+2018-09-27 14:42:12.841 - [nioEventLoopGroup-3-2] INFO  - i.n.h.c.h.w.WebSocketServerHandshaker - 客户端与服务端连接开启，客户端remoteAddress：/0:0:0:0:0:0:0:1:63966
+2018-09-27 14:44:23.376 - [main] INFO  - netty.NettyServer - Http Server listening on 8005
+2018-09-27 14:44:24.731 - [nioEventLoopGroup-3-1] INFO  - netty.NettyServerHandller - 客户端与服务端连接开启，客户端remoteAddress：/0:0:0:0:0:0:0:1:64199
+2018-09-27 14:44:34.200 - [nioEventLoopGroup-3-2] INFO  - netty.NettyServerHandller - 客户端与服务端连接开启，客户端remoteAddress：/0:0:0:0:0:0:0:1:64210
+2018-09-27 14:45:13.903 - [main] INFO  - netty.NettyServer - Http Server listening on 8005
+2018-09-27 14:45:17.159 - [nioEventLoopGroup-3-1] INFO  - netty.NettyServerHandller - 客户端与服务端连接开启，客户端remoteAddress：/0:0:0:0:0:0:0:1:64315
+2018-09-27 14:45:25.545 - [nioEventLoopGroup-3-1] INFO  - netty.NettyServerHandller - 客户端与服务端连接关闭.../0:0:0:0:0:0:0:1:64315
+2018-09-27 14:45:32.016 - [nioEventLoopGroup-3-2] INFO  - netty.NettyServerHandller - 客户端与服务端连接开启，客户端remoteAddress：/0:0:0:0:0:0:0:1:64326
+2018-09-27 14:45:56.444 - [main] INFO  - netty.NettyServer - Http Server listening on 8005
+2018-09-27 15:40:40.750 - [main] INFO  - netty.NettyServer - Http Server listening on 8005
+2018-09-27 15:40:42.826 - [nioEventLoopGroup-3-1] INFO  - netty.NettyServerHandller - 客户端与服务端连接开启，客户端remoteAddress：/0:0:0:0:0:0:0:1:54967
+2018-09-27 15:41:52.289 - [nioEventLoopGroup-3-1] INFO  - netty.NettyServerHandller - 客户端与服务端连接关闭.../0:0:0:0:0:0:0:1:54967
+2018-09-27 15:41:52.308 - [nioEventLoopGroup-3-2] INFO  - netty.NettyServerHandller - 客户端与服务端连接开启，客户端remoteAddress：/0:0:0:0:0:0:0:1:55064
+2018-09-27 15:41:54.714 - [nioEventLoopGroup-3-2] INFO  - netty.NettyServerHandller - 客户端与服务端连接关闭.../0:0:0:0:0:0:0:1:55064
+2018-09-27 15:42:53.426 - [main] INFO  - netty.NettyServer - Http Server listening on 8005
+2018-09-27 15:43:03.509 - [nioEventLoopGroup-3-1] INFO  - netty.NettyServerHandller - 客户端与服务端连接开启，客户端remoteAddress：/0:0:0:0:0:0:0:1:55211
+2018-09-27 15:43:07.269 - [nioEventLoopGroup-3-1] INFO  - netty.NettyServerHandller - 客户端与服务端连接关闭.../0:0:0:0:0:0:0:1:55211
+2018-09-27 15:43:16.791 - [nioEventLoopGroup-3-2] INFO  - netty.NettyServerHandller - 客户端与服务端连接开启，客户端remoteAddress：/0:0:0:0:0:0:0:1:55230
+2018-09-27 15:43:21.346 - [nioEventLoopGroup-3-2] INFO  - netty.NettyServerHandller - 客户端与服务端连接关闭.../0:0:0:0:0:0:0:1:55230
+2018-09-27 16:07:16.322 - [nioEventLoopGroup-3-1] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+GET /ws HTTP/1.1
+Host: localhost:8005
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36
+Upgrade: websocket
+Origin: file://
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: _ga=GA1.1.1667436321.1533714800
+Sec-WebSocket-Key: D17JUuyF8AHFJOAlT+saPQ==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+content-length: 0
+2018-09-27 16:13:25.173 - [nioEventLoopGroup-3-2] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 273, cap: 273, components=1))
+POST /join HTTP/1.1
+Content-Type: multipart/form-data; boundary=--------------------------174586910654086936205575
+roomId: 123
+cache-control: no-cache
+Postman-Token: 2cf876ab-b066-4b97-85d4-b0350a67108c
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 273
+Connection: keep-alive
+2018-09-27 16:14:01.860 - [nioEventLoopGroup-3-2] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 273, cap: 273, components=1))
+POST /join HTTP/1.1
+Content-Type: multipart/form-data; boundary=--------------------------000485096216815470366342
+roomId: 123
+cache-control: no-cache
+Postman-Token: 2d07c366-c113-443b-b2fa-9c30b37420b1
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 273
+Connection: keep-alive
+2018-09-27 16:14:29.987 - [nioEventLoopGroup-3-4] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+roomId: 123
+cache-control: no-cache
+Postman-Token: 03bf7d71-e240-403d-b5ca-b22df73cc3ee
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+2018-09-27 16:14:54.322 - [nioEventLoopGroup-3-6] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+roomId: 123
+cache-control: no-cache
+Postman-Token: 9f123beb-f760-410c-a983-0473fc6dac2c
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+2018-09-27 16:15:27.468 - [nioEventLoopGroup-3-8] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+GET /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 2ecbfc85-22af-4acd-8a85-0939cb1a675e
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+Connection: keep-alive
+content-length: 0
+2018-09-27 16:15:38.423 - [nioEventLoopGroup-3-2] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 423076e1-eb5c-4aff-b719-7dfbabf8b692
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+2018-09-27 16:16:02.792 - [nioEventLoopGroup-3-4] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 01a46ab4-3923-4f88-a070-541fb1a13d87
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+2018-09-27 16:17:04.076 - [nioEventLoopGroup-3-6] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 10, cap: 10, components=1))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 1cad1e89-2e26-4801-b8b3-655968a37e96
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 10
+Connection: keep-alive
+2018-09-27 16:18:17.901 - [nioEventLoopGroup-3-8] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 10, cap: 10, components=1))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: b904c1e4-5002-42c7-8b3e-d8c28b38aad7
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 10
+Connection: keep-alive
+2018-09-27 16:19:36.621 - [nioEventLoopGroup-3-2] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 313bdb9c-e783-4fbd-b699-6ec700b74473
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+2018-09-27 16:19:52.068 - [nioEventLoopGroup-3-4] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 85b64ead-b0f7-4249-b281-f40711db26c5
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+2018-09-27 16:20:40.178 - [nioEventLoopGroup-3-6] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 8c4fe174-80e4-4ae1-aee0-df43c396fd95
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+2018-09-27 16:21:06.094 - [nioEventLoopGroup-3-8] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 5746c177-db0e-43d0-89a4-c52384a5f86f
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+2018-09-27 16:21:14.089 - [nioEventLoopGroup-3-2] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 68162b91-641a-4f9d-a7d9-2ee16e634e5e
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+2018-09-27 16:25:20.547 - [nioEventLoopGroup-3-2] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 4475c0fb-2b60-48b1-b817-0b428a976b85
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+2018-09-27 16:25:29.508 - [nioEventLoopGroup-3-4] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 031e80e5-f6cd-41ba-8b00-ea9809b72d9a
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+2018-09-27 16:27:48.721 - [nioEventLoopGroup-3-2] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: adb23888-401f-48fc-a1cc-825633f822db
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+2018-09-27 16:29:21.045 - [nioEventLoopGroup-3-2] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: c7d7e46c-fb9b-4fb9-a14e-cd2b80dc8a17
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+2018-09-27 16:29:47.240 - [nioEventLoopGroup-3-4] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: b6d2556a-1cc6-4b1f-9ea3-24d7dfa81515
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+2018-09-27 16:30:45.676 - [nioEventLoopGroup-3-2] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 59f71d15-9b0e-49b0-a523-9e8d49ce7fb5
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+2018-09-27 16:32:07.723 - [nioEventLoopGroup-3-2] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: c413ce6f-3a73-457f-a197-e9fe57ea26ca
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 0
+Connection: keep-alive
+2018-09-27 16:39:29.402 - [nioEventLoopGroup-3-4] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 2cd86801-db12-4860-9911-a46bd294e3d5
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive
+2018-09-27 16:39:52.342 - [nioEventLoopGroup-3-2] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 81507d96-37a1-401c-be19-cf76c16cadab
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive
+2018-09-27 16:39:58.893 - [nioEventLoopGroup-3-4] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: e1940810-5fb9-44ab-ab3b-995fdd3452e3
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive
+2018-09-27 16:40:12.855 - [nioEventLoopGroup-3-2] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 6f6ed392-81de-44ab-8b35-b4872825985b
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive
+2018-09-27 16:40:20.118 - [nioEventLoopGroup-3-4] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 9daf32b9-b75f-4d20-af73-4c72f004f5be
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive
+2018-09-27 16:41:00.462 - [nioEventLoopGroup-3-2] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 233c47ef-4a8d-4c8e-b1d5-6e3c3c4e1ca5
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive
+2018-09-27 16:41:01.071 - [nioEventLoopGroup-3-2] INFO  - c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-09-27 16:42:42.802 - [nioEventLoopGroup-3-4] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /leave HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: e7fa6b89-37b0-4934-a9c0-73ed207d32b2
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive
+2018-09-27 16:42:58.576 - [nioEventLoopGroup-3-6] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /leave HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 53683640-2d9c-477f-9658-36ab98d33023
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive
+2018-09-27 16:43:35.763 - [nioEventLoopGroup-3-8] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: ade56415-012d-4d38-8fe7-79525dec70bb
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive
+2018-09-27 16:43:42.401 - [nioEventLoopGroup-3-2] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /leave HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: a99f7903-51fe-41c4-9246-24c9de9e0a43
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive
+2018-09-27 16:44:45.722 - [nioEventLoopGroup-3-4] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /leave HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: dd95bf9e-074c-4893-9401-633e91b8e0c3
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive
+2018-09-27 16:44:52.154 - [nioEventLoopGroup-3-6] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 08a59c3b-39a1-4b7b-b1b6-6f65420a0c3b
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive
+2018-09-27 16:45:07.093 - [nioEventLoopGroup-3-8] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /leave HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: de02150b-2059-4370-b0b1-4f62aec7e03e
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive
+2018-09-27 16:46:02.121 - [nioEventLoopGroup-3-2] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: dc75cf3b-98a5-4f5f-a68e-c52b07d45a9e
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive
+2018-09-27 16:46:11.283 - [nioEventLoopGroup-3-4] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /leave HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: bb5cbd5a-1d0b-4284-82e7-a6286da5d2e1
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive
+2018-09-27 16:47:07.649 - [nioEventLoopGroup-3-2] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 29bb4c89-6fa3-4ca8-8fde-93e36ad109ac
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive
+2018-09-27 16:47:08.065 - [nioEventLoopGroup-3-2] INFO  - c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-09-27 16:47:13.792 - [nioEventLoopGroup-3-4] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /leave HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 36d8d701-3215-4d30-830b-8aec4411681d
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive
+2018-09-27 16:47:53.021 - [nioEventLoopGroup-3-6] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: bd1acd9b-ec3d-4a82-82ab-eafd62946953
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive
+2018-09-27 16:48:01.949 - [nioEventLoopGroup-3-8] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /leave HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 0ffcaee0-77de-4785-a710-9897c01015bf
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive
+2018-09-27 16:50:28.803 - [nioEventLoopGroup-3-2] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: e4b80812-847c-4829-8eb9-269fc14b8766
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive
+2018-09-27 16:50:29.210 - [nioEventLoopGroup-3-2] INFO  - c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-09-27 16:50:39.263 - [nioEventLoopGroup-3-4] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /leave HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 176df1d7-96f6-4921-93de-6f0067521d62
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive
+2018-09-27 16:52:16.797 - [nioEventLoopGroup-3-2] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 8d153ed5-689b-419a-8ec0-0f70ceaf87f1
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive
+2018-09-27 16:52:17.196 - [nioEventLoopGroup-3-2] INFO  - c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-09-27 16:52:28.456 - [nioEventLoopGroup-3-4] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /leave HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 4317480b-5369-4015-9b8a-d6009e8dfcc1
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive
+2018-09-27 16:58:09.293 - [nioEventLoopGroup-3-2] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /join HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 312fc45d-718e-460c-8605-7b38ef828d24
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive
+2018-09-27 16:58:09.705 - [nioEventLoopGroup-3-2] INFO  - c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-09-27 16:58:37.584 - [nioEventLoopGroup-3-4] INFO  - handler.NettyHttpServerHandler - httpRequest:HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 22, cap: 22, components=1))
+POST /leave HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: 599e5dba-3982-4449-80be-5f68baa6da96
+User-Agent: PostmanRuntime/7.3.0
+Accept: */*
+Host: localhost:8005
+accept-encoding: gzip, deflate
+content-length: 22
+Connection: keep-alive

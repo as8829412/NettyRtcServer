@@ -189,7 +189,6 @@ public class NettyServerHandller extends SimpleChannelInboundHandler<Object> {
             }
             ByteBuf content = copiedBuffer(data, CharsetUtil.UTF_8);
             response = HttpsParamsHandler.responseOK(HttpResponseStatus.OK, content);
-
         } else {
             response = HttpsParamsHandler.responseOK(HttpResponseStatus.INTERNAL_SERVER_ERROR, null);
         }

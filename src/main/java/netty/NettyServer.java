@@ -1,5 +1,6 @@
 package netty;
 
+import com.mpush.bootstrap.Main;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelOption;
@@ -37,6 +38,7 @@ public class NettyServer {
                     .childOption(ChannelOption.SO_KEEPALIVE,true);
             f =b.bind(port).sync();
             //channel=f.channel();
+            Main.main(null);
             f.channel().closeFuture().sync();
         }catch (Exception e) {
             log.error("Netty start error:", e);

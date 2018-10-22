@@ -2,21 +2,25 @@ package message;
 
 public class MessageRequest {
     private String cmd;
-    private String roomid;
-    private String clientid;
+    private String roomId;
+    private String clientId;
     private String msg;
     private String toUser;
+    private String type;//1:单聊，2:群聊
 
+    public String getType() {
+        return type;
+    }
     public String getCmd() {
         return cmd;
     }
 
-    public String getRoomid() {
-        return roomid;
+    public String getRoomId() {
+        return roomId;
     }
 
-    public String getClientid() {
-        return clientid;
+    public String getClientId() {
+        return clientId;
     }
 
     public String getMsg() {
@@ -27,18 +31,16 @@ public class MessageRequest {
         return toUser;
     }
 
-    public void setToUser(String toUser) {
-        this.toUser = toUser;
-    }
 
     @Override
     public String toString() {
         return "MessageRequest{" +
                 "cmd='" + cmd + '\'' +
-                ", roomid='" + roomid + '\'' +
-                ", clientid='" + clientid + '\'' +
+                ", roomId='" + roomId + '\'' +
+                ", clientId='" + clientId + '\'' +
                 ", msg='" + msg + '\'' +
                 ", toUser='" + toUser + '\'' +
+                ", type='" + type + '\'' +
                 '}';
     }
 }

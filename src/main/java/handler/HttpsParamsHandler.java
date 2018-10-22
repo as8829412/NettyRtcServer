@@ -1,11 +1,16 @@
 package handler;
 
 import io.netty.buffer.ByteBuf;
+import io.netty.buffer.Unpooled;
+import io.netty.channel.ChannelFutureListener;
+import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.http.*;
 import io.netty.handler.codec.http.multipart.DefaultHttpDataFactory;
 import io.netty.handler.codec.http.multipart.HttpPostRequestDecoder;
 import io.netty.handler.codec.http.multipart.InterfaceHttpData;
 import io.netty.handler.codec.http.multipart.MemoryAttribute;
+import io.netty.util.AsciiString;
+import io.netty.util.CharsetUtil;
 import net.sf.json.JSONObject;
 
 import java.io.UnsupportedEncodingException;
@@ -108,5 +113,40 @@ public class HttpsParamsHandler {
             response.headers().set("Content_Length", response.content().readableBytes());
         }
         return response;
+    }
+    //获取http里的body参数信息
+    public static JSONObject getRequestParams(FullHttpRequest request){
+        ByteBuf jsonBuf = request.content();
+        System.out.println("body:"+jsonBuf.toString(CharsetUtil.UTF_8));
+        String body=jsonBuf.toString(CharsetUtil.UTF_8);
+        JSONObject json=JSONObject.fromObject(body);
+        return json;
+    }
+    /**
+     * 响应HTTP的请求
+     * @param ctx
+     * @param req
+     * @param jsonStr
+     */
+    private static final AsciiString CONTENT_TYPE = new AsciiString("Content-Type");
+    private static final AsciiString CONTENT_LENGTH = new AsciiString("Content-Length");
+    private static final AsciiString CONNECTION = new AsciiString("Connection");
+    private static final AsciiString KEEP_ALIVE = new AsciiString("keep-alive");
+    private void ResponseJson(ChannelHandlerContext ctx, FullHttpRequest req , String jsonStr)
+    {
+        boolean keepAlive = HttpUtil.isKeepAlive(req);
+        byte[] jsonByteByte = jsonStr.getBytes();
+        System.out.println("json byte NO. is "+jsonByteByte.length);
+        FullHttpResponse response = new DefaultFullHttpResponse(HttpVersion.HTTP_1_1, HttpResponseStatus.OK, Unpooled.wrappedBuffer(jsonByteByte));
+        response.headers().set(CONTENT_TYPE, "text/json");
+        System.out.println("conten byte NO. is "+response.content().readableBytes());
+        response.headers().setInt(CONTENT_LENGTH, response.content().readableBytes());
+
+        if (!keepAlive) {
+            ctx.write(response).addListener(ChannelFutureListener.CLOSE);
+        } else {
+            response.headers().set(CONNECTION, KEEP_ALIVE);
+            ctx.write(response);
+        }
     }
 }

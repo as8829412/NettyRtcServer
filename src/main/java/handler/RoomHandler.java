@@ -5,7 +5,7 @@ import druid.DBUtilDemo;
 import entity.Client;
 import entity.Room;
 import entity.TalkRecord;
-import message.MessageManager;
+import mpush.PushMessage;
 import net.sf.json.JSONObject;
 import util.SimpleDateUtil;
 
@@ -22,7 +22,8 @@ public class RoomHandler extends BaseHandler {
         //{"msg":"{\"type\":\"bye\"}","error":""}
         JSONObject json=new JSONObject();
         json.put("type","call");
-        String result= MessageManager.managerMsg(clientId,toUser,json);
+        json.put("msg",clientId+"用户呼叫你!");
+        String result= PushMessage.managerMsg(toUser,json);
         //return "{\"result\":\"SUCCESS\"}";
     }
     //呼叫回应
@@ -31,8 +32,10 @@ public class RoomHandler extends BaseHandler {
         JSONObject json=new JSONObject();
         json.put("type","call");
         json.put("msg",msg);
-        String result= MessageManager.managerMsg(clientId,other,json);
+        String result= PushMessage.managerMsg(other,json);
     }
+    //加入房间
+    //type:1单聊，2群聊
     public String joinRoom(String roomId,String clientId,String host){
         String error="";
         boolean isInitiator=false;
@@ -41,6 +44,9 @@ public class RoomHandler extends BaseHandler {
         List<String> message = new ArrayList<>();
         int clientSize=0;
         if (!"".equals(roomId)&&!"".equals(clientId)){
+            if(roomMap.containsKey(roomId)&&roomMap.get(roomId).getClientIds().size()>1){//&&roomMap.get(roomId).getClientIds().get(clientId)!=null
+                roomMap.remove(roomId);
+            }
             if (!roomMap.containsKey(roomId)){
                 room=new Room();
             }else{
@@ -66,14 +72,16 @@ public class RoomHandler extends BaseHandler {
                     isInitiator=false;
                     String other=getOtherClient(roomId,clientId);
                     Client other_client=room.getClientIds().get(other);
-                    message.addAll(other_client.getMessage());
-                    //message=other_client.getMessage();
-                    client=new Client();
-                    client.setClient_id(clientId);
-                    client.setInitiator(isInitiator);
-                    //client.addOneMessage(message);
-                    room.getClientIds().put(clientId,client);
-                    other_client.getMessage().clear();
+                    if (other_client!=null&&other_client.getMessage()!=null&&other_client.getMessage().size()>0) {
+                        message.addAll(other_client.getMessage());
+                        client=new Client();
+                        client.setClient_id(clientId);
+                        client.setInitiator(isInitiator);
+                        room.getClientIds().put(clientId,client);
+                        other_client.getMessage().clear();
+                    }else {
+                        error = "cleint message error";
+                    }
                 }
             }
         }else{
@@ -85,6 +93,7 @@ public class RoomHandler extends BaseHandler {
             JSONObject params = this.get_room_parameters(roomId, clientId, isInitiator,host);
             params.put("messages",message);
             String begin_dt= SimpleDateUtil.getCurrentDate("yyyy-MM-dd HH:mm:ss");
+            //String begin_dt= DateUtils.getDateTime();
             try {
                 upRecordInfo(isInitiator, roomId, clientId, begin_dt,null);
             } catch (SQLException e) {
@@ -97,8 +106,6 @@ public class RoomHandler extends BaseHandler {
     public String sendMessage(String roomId,String clientId,String msg){
         String error="";
         Client client=null;
-        //List<String> message = new ArrayList<>();
-        //int retries = 0;
         boolean saved=true;
         if (roomId!=""&&roomId!=null){
             if (roomMap.get(roomId).getClientIds().containsKey(clientId)) {
@@ -107,7 +114,6 @@ public class RoomHandler extends BaseHandler {
                 }else{
                     client=roomMap.get(roomId).getClientIds().get(clientId);
                     client.addOneMessage(msg);
-                    //retries = retries + 1;
                 }
             }else {
                 error = "UNKNOWN_CLIENT";
@@ -120,12 +126,19 @@ public class RoomHandler extends BaseHandler {
         }
         else {
             if (!saved){
-                // send_message_to_websocket(room_id,client_id,msg);
+                sendAnswerMsg(roomId,clientId,msg);
                 return "{\"result\":\"SUCCESS\"}";
             }else {
                 return "{\"result\":\"SUCCESS\"}";
             }
         }
+    }
+    private void sendAnswerMsg(String room_id,String client_id,String msg){
+        String toUser=getOtherClient(room_id,client_id);
+        JSONObject json=new JSONObject();
+        json.put("cmd","send");
+        json.put("msg",msg);
+        String result= PushMessage.managerMsg(toUser,json);
     }
     public String leaveRoom(String roomId,String clientId){
         String error ="";
@@ -158,7 +171,7 @@ public class RoomHandler extends BaseHandler {
         }
     }
 
-    private void upRecordInfo(boolean isInitiator,String room_id, String client_id,String begin_dt,String end_dt) throws SQLException {
+    protected static void upRecordInfo(boolean isInitiator,String room_id, String client_id,String begin_dt,String end_dt) throws SQLException {
         List<TalkRecord> talkRecord= DBUtilDemo.queryRecord(room_id);//record.selectRecord(room_id);
         TalkRecord talk=null;
         List<String> list = new ArrayList<>();
@@ -178,7 +191,6 @@ public class RoomHandler extends BaseHandler {
                 if (list.size()<2){
                     talk.setClient_ids(client_id);
                     DBUtilDemo.updateClientRecord(talk);
-                    //record.updateByPrimaryKeySelective(talk);
                 }
 
             }
@@ -190,7 +202,6 @@ public class RoomHandler extends BaseHandler {
             talk.setEnd_dt(endDt);
             talk.setChatTime(chatTime);
             DBUtilDemo.updateRecord(talk);
-            //record.updateByPrimaryKeySelective(talk);
         }
     }
     private String getOtherClient(String roomid,String clientId){
@@ -203,7 +214,7 @@ public class RoomHandler extends BaseHandler {
         return otherClient;
     }
     //获取房间配置
-    private JSONObject get_room_parameters(String room_id,String client_id,boolean isInitiator,String host){
+    protected static JSONObject get_room_parameters(String room_id,String client_id,boolean isInitiator,String host){
         JSONObject params=new JSONObject();
         String ice_transports = "";//request.get('it')
 //        String ice_server_transports = "";// request.get('tt')
@@ -218,7 +229,7 @@ public class RoomHandler extends BaseHandler {
 //        params.put("pc_constraints",pc_constraints);
         String wss_url="ws://"+host+"/ws";
         String wss_post_url="http://"+host+"/ws";
-        params.put("ice_server_url","https://rtc.tlifang.com/iceconfig?key=none");
+        params.put("ice_server_url","http://119.28.51.83:3033/iceconfig?key=none");
         params.put("wss_url",wss_url);
         params.put("wss_post_url",wss_post_url);
         params.put("pc_config",pc_config);
@@ -235,8 +246,7 @@ public class RoomHandler extends BaseHandler {
 
         return params;
     }
-    private String make_pc_config(String ice_transports,String ice_server_override){
-//        "pc_config": "{\"iceServers\": [], \"bundlePolicy\": \"max-bundle\", \"rtcpMuxPolicy\": \"require\"}",
+    private static String make_pc_config(String ice_transports,String ice_server_override){
         JSONObject pc_config=new JSONObject();
         pc_config.put("iceServers",new ArrayList<>());
         pc_config.put("bundlePolicy","max-bundle");

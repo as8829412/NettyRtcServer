@@ -9,12 +9,10 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class BaseHandler {
-    //存放房间id和房间
+    //存放单聊房间id和房间数据
     public static Map<String, Room> roomMap=new ConcurrentHashMap<String, Room>();
-
-    //public static Map<String,Session> sessionMap=new HashMap<String, Session>();
-    //心跳连接检测
-    public static Map<String,String> pingpongMap=new ConcurrentHashMap<String, String>();
+    //存放群聊房间id和房间数据
+    public static Map<String, Room> groupRoomMap=new ConcurrentHashMap<String, Room>();
 
     /**
      * 以下类是用来存储访问的channle，channelGroup的原型是set集合，保证channle的唯一，如需根据参数标注存储，可以使用currentHashMap来存储。

@@ -3,7 +3,7 @@ package message;
 public class MessageResponse {
     private String msg;//{"msg":"{\"type\":\"bye\"}","error":""}
     private String error;
-
+    private String client;
     public MessageResponse() {
     }
 
@@ -26,6 +26,14 @@ public class MessageResponse {
     public MessageResponse(String msg, String error) {
         this.msg = msg;
         this.error = error;
+    }
+
+    public String getClient() {
+        return client;
+    }
+
+    public void setClient(String client) {
+        this.client = client;
     }
 
     @Override

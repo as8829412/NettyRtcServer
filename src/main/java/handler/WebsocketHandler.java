@@ -82,7 +82,8 @@ public class WebsocketHandler extends BaseHandler {
         for (Room room:roomMap.values()){
             for (Client client:room.getClientIds().values()){
                 if (client.getChannel().id()==channel.id()){
-                    room.getClientIds().remove(client.getClient_id());
+                    //room.getClientIds().remove(client.getClient_id());
+                    client.setChannel(null);
                 }
             }
         }

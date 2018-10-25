@@ -7,6 +7,7 @@ import io.netty.channel.ChannelOption;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+import org.kurento.client.KurentoClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,6 +19,8 @@ import org.slf4j.LoggerFactory;
 public class NettyServer {
 
     private static final Logger log= LoggerFactory.getLogger(NettyServer.class);
+
+    final static String DEFAULT_KMS_WS_URI = "ws://119.28.51.83:8888/kurento";
 
     private final int port;
 
@@ -38,7 +41,7 @@ public class NettyServer {
                     .childOption(ChannelOption.SO_KEEPALIVE,true);
             f =b.bind(port).sync();
             //channel=f.channel();
-            Main.main(null);
+            //Main.main(null);
             f.channel().closeFuture().sync();
         }catch (Exception e) {
             log.error("Netty start error:", e);
@@ -46,6 +49,10 @@ public class NettyServer {
             workerGroup.shutdownGracefully();
             bossGroup.shutdownGracefully();
         }
+    }
+
+    public KurentoClient kurentoClient() {
+        return KurentoClient.create(System.getProperty("kms.ws.uri",DEFAULT_KMS_WS_URI));
     }
 
     /*public void destroy(){
@@ -59,6 +66,8 @@ public class NettyServer {
     public static void main(String[] args)  throws Exception{
         NettyServer server=new NettyServer(8005);
         log.info("Http Server listening on 8005");
+        server.kurentoClient();
         server.run();
+
     }
 }

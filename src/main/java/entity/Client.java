@@ -64,13 +64,14 @@ public class Client {
         }
         return this;
     }
+
     @Override
     public String toString() {
         return "Client{" +
                 "client_id='" + client_id + '\'' +
                 ", message=" + message +
+                ", isInitiator=" + isInitiator +
+                ", channel=" + channel +
                 '}';
     }
-
-
 }

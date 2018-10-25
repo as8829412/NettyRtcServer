@@ -1,6 +1,8 @@
 package netty;
 
 import base.BaseHandler;
+import entity.Client;
+import entity.Room;
 import handler.GroupHandler;
 import handler.HttpsParamsHandler;
 import handler.RoomHandler;
@@ -16,8 +18,6 @@ import message.MessageRequest;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-
 import java.util.Random;
 
 import static io.netty.buffer.Unpooled.copiedBuffer;
@@ -87,19 +87,19 @@ public class NettyServerHandller extends SimpleChannelInboundHandler<Object> {
             WebsocketHandler wsHandler=new WebsocketHandler();
             switch (msg.getCmd()){
                 case "register":
-                    if (msg.getRoomId() ==""||msg.getRoomId()=="null"){
+                    if (msg.getRoomid() ==""||msg.getRoomid()=="null"){
                         error="RoomID is null";
                         break;
                     }
-                    if (msg.getClientId() ==""||msg.getClientId()=="null") {
+                    if (msg.getClientid() ==""||msg.getClientid()=="null") {
                         error = "ClientID is null";
                         break;
                     }
                     boolean bool;
                     if ("2".equals(msg.getType())){
-                        bool=wsHandler.registerGroup(msg.getRoomId(), msg.getClientId(), ctx);
+                        bool=wsHandler.registerGroup(msg.getRoomid(), msg.getClientid(), ctx);
                     }else {
-                        bool = wsHandler.joinRoom(msg.getRoomId(), msg.getClientId(), ctx);
+                        bool = wsHandler.joinRoom(msg.getRoomid(), msg.getClientid(), ctx);
                     }
                     if (!bool){
                         error="register fail";
@@ -120,9 +120,10 @@ public class NettyServerHandller extends SimpleChannelInboundHandler<Object> {
 //                        error ="toUser:"+msg.getToUser()+" is not register";
 //                        break;
 //                    }
-                    tws=new TextWebSocketFrame(WebsocketHandler.reponseMsg(msg.getMsg(),"",msg.getClientId()));
+                    System.out.println("socketmsg=======:"+WebsocketHandler.reponseMsg(msg.getMsg(),"",msg.getClientid()));
+                    tws=new TextWebSocketFrame(WebsocketHandler.reponseMsg(msg.getMsg(),"",msg.getClientid()));
                     if ("2".equals(msg.getType())){
-                        wsHandler.sendGroupMsg(msg.getRoomId(),ctx.channel(),tws);
+                        wsHandler.sendGroupMsg(msg.getRoomid(),ctx.channel(),tws);
                     }else {
                         wsHandler.sendMessage(ctx,tws);
                         //UserInfoManager.sendRoomMsg(msg.getRoomId(),ctx.channel(),tws);
@@ -134,14 +135,13 @@ public class NettyServerHandller extends SimpleChannelInboundHandler<Object> {
                     error="402";
             }
             if (error!=""){
-                tws=new TextWebSocketFrame(WebsocketHandler.reponseMsg("",error,msg.getClientId()));
+                tws=new TextWebSocketFrame(WebsocketHandler.reponseMsg("",error,msg.getClientid()));
                 ctx.channel().writeAndFlush(tws);
             }
         }catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        System.out.println("group========:"+BaseHandler.group.size());
         //sendMessage(ctx,tws);
         // 群发
         //BaseHandler.group.writeAndFlush(tws);
@@ -205,26 +205,10 @@ public class NettyServerHandller extends SimpleChannelInboundHandler<Object> {
         String[] uris=uri.split("/");
         FullHttpResponse response = null;
         // 如果是websocket请求就握手升级
-        if ("/ws".equalsIgnoreCase(uris[1])) {
-            System.out.println("websocket 请求接入");
-            // 握手相应处理,创建websocket握手的工厂类
-            WebSocketServerHandshakerFactory wsFactory = new WebSocketServerHandshakerFactory(
-                    "ws://"+fullHttpRequest.headers().get("Host")+"/ws/"+uris[2]+"/"+uris[3], null, false);
-            handshaker = wsFactory.newHandshaker(fullHttpRequest);
-            if (handshaker == null) {
-                //不支持websocket
-                WebSocketServerHandshakerFactory.sendUnsupportedVersionResponse(ctx.channel());
-            } else {
-                // 通过它构造握手响应消息返回给客户端
-                handshaker.handshake(ctx.channel(), fullHttpRequest);
-            }
-        }
-        if (fullHttpRequest.method() == HttpMethod.DELETE){
-            BaseHandler.roomMap.remove(uris[2]);
-        }
-        else if (fullHttpRequest.method() == HttpMethod.POST) {
+        if (fullHttpRequest.method() == HttpMethod.POST) {
             System.out.println("httpChannel=======:"+ctx.channel().id());
             String data = doPost(uris,fullHttpRequest);
+            System.out.println("POSTData=======:"+data);
             ByteBuf content = copiedBuffer(data, CharsetUtil.UTF_8);
             response = HttpsParamsHandler.responseOK(HttpResponseStatus.OK, content);
         } else {
@@ -314,7 +298,14 @@ public class NettyServerHandller extends SimpleChannelInboundHandler<Object> {
             IdleStateEvent evnet = (IdleStateEvent) evt;
             // 判断Channel是否读空闲, 读空闲时移除Channel
             if (evnet.state().equals(IdleState.READER_IDLE)) {
-                WebsocketHandler.removeChannel(ctx.channel());
+                //WebsocketHandler.removeChannel(ctx.channel());
+                for (Room room:BaseHandler.roomMap.values()){
+                    for (Client client:room.getClientIds().values()){
+                        if (client.getChannel().id()==ctx.channel().id()){
+                            room.getClientIds().remove(client.getClient_id());
+                        }
+                    }
+                }
                 ctx.channel().close();
                 ctx.flush();
             }

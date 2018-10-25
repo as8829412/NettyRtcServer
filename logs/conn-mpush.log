@@ -1,6 +1,0 @@
-2018-09-27 10:24:22.939 - client connected conn=[id: 0x26968667, L:/192.168.1.96:3001 - R:/192.168.1.96:51474]
-2018-09-27 10:24:28.124 - client caught ex, conn=[channel=[id: 0x26968667, L:/192.168.1.96:3001 - R:/192.168.1.96:51474], context=, status=1, lastReadTime=1538015062989, lastWriteTime=0]
-2018-09-27 10:24:28.134 - client disconnected conn=[channel=[id: 0x26968667, L:/192.168.1.96:3001 ! R:/192.168.1.96:51474], context=, status=2, lastReadTime=1538015062989, lastWriteTime=0]
-2018-09-27 10:24:30.023 - client connected conn=[id: 0xd441c208, L:/192.168.1.96:3001 - R:/192.168.1.96:51502]
-2018-09-27 10:30:17.726 - client caught ex, conn=[channel=[id: 0xd441c208, L:/192.168.1.96:3001 - R:/192.168.1.96:51502], context=, status=1, lastReadTime=1538015070023, lastWriteTime=0]
-2018-09-27 10:30:17.728 - client disconnected conn=[channel=[id: 0xd441c208, L:/192.168.1.96:3001 ! R:/192.168.1.96:51502], context=, status=2, lastReadTime=1538015070023, lastWriteTime=0]

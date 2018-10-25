@@ -144,6 +144,7 @@ public class RoomHandler extends BaseHandler {
         String error ="";
         if (roomId!=""&&roomId!=null){
             if (roomMap.containsKey(roomId)){
+                System.out.println("clientId:"+clientId+"======="+roomMap.get(roomId).toString());
                 if (roomMap.get(roomId).getClientIds().containsKey(clientId)) {
                     roomMap.get(roomId).getClientIds().remove(clientId);
                 }else {

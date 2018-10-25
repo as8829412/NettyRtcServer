@@ -3,42 +3,70 @@
   <component name="ChangeListManager">
     <list default="true" id="e0e28f84-fe5d-4df7-9d30-01c4ac1867b4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/debug-mpush.log" beforeDir="false" afterPath="$PROJECT_DIR$/log.home_IS_UNDEFINED/debug-mpush.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/debug-mpush.log.2018-09-26" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/debug-mpush.log.2018-09-27" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/info-mpush.log" beforeDir="false" afterPath="$PROJECT_DIR$/log.home_IS_UNDEFINED/info-mpush.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/info-mpush.log.2018-09-26" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/info-mpush.log.2018-09-27" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/mpush.log" beforeDir="false" afterPath="$PROJECT_DIR$/log.home_IS_UNDEFINED/mpush.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/mpush.log.2018-09-26" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/mpush.log.2018-09-27" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/BaseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BaseHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/UserInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/handler/GroupChatHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/handler/GroupHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/handler/HttpsParamsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/handler/HttpsParamsHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/handler/NettyHttpServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/handler/NettyHttpServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/cache-mpush.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/cache-mpush.log.2018-09-26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/conn-mpush.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/conn-mpush.log.2018-09-26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/debug-mpush.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/heartbeat-mpush.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/http-mpush.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/info-mpush.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/monitor-mpush.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/mpush.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/profile-mpush.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/push-mpush.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/redis-mpush.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/srd-mpush.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/srd-mpush.log.2018-09-26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.home_IS_UNDEFINED/zk-mpush.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cache-mpush.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cache-mpush.log.2018-09-26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/conn-mpush.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/conn-mpush.log.2018-09-26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/debug-mpush.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/debug-mpush.log.2018-09-26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/heartbeat-mpush.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/http-mpush.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/info-mpush.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/info-mpush.log.2018-09-26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/monitor-mpush.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/monitor-mpush.log.2018-09-26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mpush.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mpush.log.2018-09-26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/profile-mpush.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/push-mpush.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/srd-mpush.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/srd-mpush.log.2018-09-26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NettyHttpServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/handler/NettyHttpServerHandler.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/handler/RoomHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/handler/RoomHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/handler/WebsocketHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/handler/WebsocketHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/message/MessageManager.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/message/MessageRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/message/MessageRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/message/MessageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/message/MessageResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/message/UserInfoManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/message/UserInfoManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mpush/PushMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mpush/PushMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mpush/ServerTestMain.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/netty/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/NettyServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/netty/NettyServerHandller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/NettyServerHandller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF.services/com.mpush.api.spi.common.CacheManagerFactory" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF.services/com.mpush.api.spi.common.MQClientFactory" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF.services/com.mpush.api.spi.common.ServiceDiscoveryFactory" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF.services/com.mpush.api.spi.common.ServiceRegistryFactory" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/druid/DBUtilDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/druid/DBUtilDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entity/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entity/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entity/UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/NettyServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/NettyServerInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF.services/com.mpush.api.spi.common.CacheManagerFactory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF.services/com.mpush.api.spi.common.MQClientFactory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF.services/com.mpush.api.spi.common.ServiceDiscoveryFactory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF.services/com.mpush.api.spi.common.ServiceRegistryFactory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NettyHttpServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NettyHttpServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/BaseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/BaseHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entity/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entity/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/handler/GroupChatHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/handler/HttpsParamsHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/handler/HttpsParamsHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/handler/NettyHttpServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/handler/NettyHttpServerHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/handler/RoomHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/handler/RoomHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/handler/WebsocketHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/handler/WebsocketHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/message/MessageManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/message/MessageRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/message/MessageRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/message/MessageResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/message/MessageResponse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/message/UserInfoManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/message/UserInfoManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mpush/PushMessage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mpush/PushMessage$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mpush/PushMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mpush/PushMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mpush/ServerTestMain.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/netty/NettyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/NettyServer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/netty/NettyServerHandller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/NettyServerHandller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/netty/NettyServerInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/NettyServerInitializer.class" afterDir="false" />
@@ -69,13 +97,14 @@
     <session id="-1821934967">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="6" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.3" value="4" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.35" value="1" />
@@ -84,26 +113,27 @@
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.41" value="2" />
           <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="conf" value="4" />
           <entry key="dummy" value="27" />
-          <entry key="java" value="8729" />
+          <entry key="java" value="9258" />
           <entry key="properties" value="7" />
-          <entry key="txt" value="20" />
-          <entry key="xml" value="149" />
+          <entry key="txt" value="53" />
+          <entry key="xml" value="209" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8729" />
-          <entry key="PLAIN_TEXT" value="51" />
+          <entry key="JAVA" value="9258" />
+          <entry key="PLAIN_TEXT" value="84" />
           <entry key="Properties" value="7" />
-          <entry key="XML" value="149" />
+          <entry key="XML" value="209" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -114,21 +144,21 @@
           <entry key="ServiceDiscoveryFactory" value="1" />
           <entry key="ServiceRegistryFactory" value="2" />
           <entry key="class" value="140" />
-          <entry key="conf" value="11" />
-          <entry key="java" value="342" />
+          <entry key="conf" value="12" />
+          <entry key="java" value="398" />
           <entry key="log" value="2" />
-          <entry key="pom" value="3" />
+          <entry key="pom" value="6" />
           <entry key="properties" value="10" />
-          <entry key="xml" value="16" />
+          <entry key="xml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="140" />
-          <entry key="JAVA" value="342" />
-          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="JAVA" value="398" />
+          <entry key="PLAIN_TEXT" value="23" />
           <entry key="Properties" value="10" />
-          <entry key="XML" value="19" />
+          <entry key="XML" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -138,124 +168,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netty/NettyServerHandller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="89" selection-start-line="89" selection-end-line="89" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#handlerHttpRequest#0;class#NettyServerHandller#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/handler/GroupHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1622">
-              <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/handler/RoomHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#call#0;class#RoomHandler#0" />
-                <element signature="method#make_pc_config#0;class#RoomHandler#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mpush/PushMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/handler/HttpsParamsHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
-              <folding>
-                <element signature="method#getGetParamsFromChannel#0;class#HttpsParamsHandler#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netty/NettyServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-79">
-              <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/message/MessageResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/message/MessageRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-              <folding>
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/handler/WebsocketHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1757">
-              <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/base/BaseHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#474#488#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -269,6 +182,7 @@
       <find>QueryStringDecoder</find>
       <find>release</find>
       <find>clientMap</find>
+      <find>body</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -306,32 +220,32 @@
         <option value="$PROJECT_DIR$/src/main/java/netty/WebSocketServerInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/entity/UserInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/message/MessageManage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NettyHttpServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/HttpServerHandler.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mpush.conf" />
         <option value="$PROJECT_DIR$/src/main/java/mpush/ServerTestMain.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
         <option value="$PROJECT_DIR$/src/main/java/message/MessageManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/MyWebSocketServerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entity/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/druid/DBUtilDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/NettyServerInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/entity/Room.java" />
         <option value="$PROJECT_DIR$/src/main/java/handler/RoomHttpHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/NettyServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/handler/NettyHttpServerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/NettyServerHandller.java" />
         <option value="$PROJECT_DIR$/src/main/java/message/UserInfoManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/handler/GroupChatHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/handler/GroupHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/handler/RoomHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/handler/HttpsParamsHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/message/MessageRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/mpush/PushMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/handler/WebsocketHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/message/MessageResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/BaseHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NettyHttpServer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/NettyServerInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/NettyServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/message/MessageRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entity/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/handler/RoomHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/handler/WebsocketHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/NettyServerHandller.java" />
       </list>
     </option>
   </component>
@@ -351,7 +265,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="NettyRtcDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="NettyRtcDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -402,7 +326,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NettyRtcDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -419,14 +343,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="message" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NettyRtcDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NettyRtcDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mpush" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NettyRtcDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -453,14 +369,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540187772053" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540433370251" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -492,7 +408,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NettyHttpServer">
+  <component name="RunManager" selected="Application.NettyServer">
     <configuration name="NettyHttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NettyHttpServer" />
       <module name="NettyRtcDemo" />
@@ -526,30 +442,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerTestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mpush.ServerTestMain" />
-      <module name="NettyRtcDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mpush.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="NettyRtcDemo [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Application.NettyHttpServer" />
       <item itemvalue="Application.NettyServer" />
       <item itemvalue="Application.PushMessage" />
-      <item itemvalue="Application.ServerTestMain" />
+      <item itemvalue="Maven.NettyRtcDemo [install]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NettyHttpServer" />
         <item itemvalue="Application.NettyServer" />
-        <item itemvalue="Application.ServerTestMain" />
+        <item itemvalue="Application.NettyHttpServer" />
+        <item itemvalue="Maven.NettyRtcDemo [install]" />
         <item itemvalue="Application.PushMessage" />
       </list>
     </recent_temporary>
@@ -586,7 +514,12 @@
       <workItem from="1539910550990" duration="1838000" />
       <workItem from="1539937280026" duration="618000" />
       <workItem from="1540171404713" duration="624000" />
-      <workItem from="1540187284738" duration="471000" />
+      <workItem from="1540187284738" duration="7620000" />
+      <workItem from="1540257159252" duration="10025000" />
+      <workItem from="1540344506264" duration="287000" />
+      <workItem from="1540344910398" duration="143000" />
+      <workItem from="1540345930300" duration="18786000" />
+      <workItem from="1540429567131" duration="1446000" />
     </task>
     <task id="LOCAL-00001" summary="nettyRtcServer">
       <created>1538212525382</created>
@@ -602,11 +535,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538272079697</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="网状点对点单聊和群聊转发服务器">
+      <created>1540187999551</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540187999551</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196105000" />
+    <option name="totallyTimeSpent" value="233941000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -619,9 +559,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22547974" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23827292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -630,7 +569,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3286334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -638,8 +577,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989339" weight="0.3286334" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.3286334" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.3286334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -697,7 +636,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nettyRtcServer" />
     <MESSAGE value="nettyRtcServer1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="nettyRtcServer1.0" />
+    <MESSAGE value="网状点对点单聊和群聊转发服务器" />
+    <option name="LAST_COMMIT_MESSAGE" value="网状点对点单聊和群聊转发服务器" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -718,64 +658,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/handler/codec/http/HttpResponseStatus.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="17" column="69" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/time/LocalDateTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="178" column="32" selection-start-line="178" selection-start-column="32" selection-end-line="178" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/MyWebSocketServerHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/HttpServerHandler.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/channel/ChannelFuture.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/channel/ChannelOutboundInvoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/handler/codec/http/websocketx/TextWebSocketFrame.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/TalkRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/channel/AbstractChannelHandlerContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="310" column="40" selection-start-line="310" selection-start-column="40" selection-end-line="310" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
@@ -812,13 +694,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/handler/RoomHttpHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar!/io/netty/channel/ChannelInboundHandler.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -841,13 +716,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entity/UserInfo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-boot/0.8.0/mpush-boot-0.8.0.jar!/com/mpush/bootstrap/job/BootChain.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -897,39 +765,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/handler/NettyHttpServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="845">
-          <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mpush/ServerTestMain.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/druid.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/SimpleDateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -940,27 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyHttpServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-430">
-          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/NettyServerInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="42" column="85" lean-forward="true" selection-start-line="42" selection-start-column="85" selection-end-line="42" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/message/UserInfoManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
@@ -968,105 +787,234 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/handler/GroupHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/message/MessageManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/NettyHttpServer.java" />
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/kurento/kurento-client/6.7.1/kurento-client-6.7.1.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1622">
-          <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/handler/HttpsParamsHandler.java">
+    <entry file="file://$MAVEN_REPOSITORY$/org/kurento/kurento-parent-pom/6.7.1/kurento-parent-pom-6.7.1.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
-          <folding>
-            <element signature="method#getGetParamsFromChannel#0;class#HttpsParamsHandler#0" />
-          </folding>
-        </state>
+        <state relative-caret-position="-3483" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/NettyServer.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-79">
-          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/message/MessageManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/message/MessageRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-          <folding>
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/handler/RoomHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#call#0;class#RoomHandler#0" />
-            <element signature="method#make_pc_config#0;class#RoomHandler#0" />
-          </folding>
+        <state relative-caret-position="609">
+          <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mpush/PushMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="108">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/NettyServerHandller.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/mpusher/mpush-boot/0.8.0/mpush-boot-0.8.0-sources.jar!/com/mpush/bootstrap/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/NettyServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/NettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="46" column="47" lean-forward="true" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final-sources.jar!/io/netty/handler/codec/http/HttpResponseStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="273" column="43" selection-start-line="273" selection-start-column="43" selection-end-line="273" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/SimpleDateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#handlerHttpRequest#0;class#NettyServerHandller#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/message/MessageResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/handler/WebsocketHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1757">
-          <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="9" column="65" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/base/BaseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="162">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#474#488#0" expanded="true" />
+            <element signature="e#366#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="1104" column="19" selection-start-line="1104" selection-start-column="19" selection-end-line="1104" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final-sources.jar!/io/netty/channel/SimpleChannelInboundHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final-sources.jar!/io/netty/handler/codec/http/websocketx/WebSocketServerHandshaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="140" column="25" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="347" selection-start-line="347" selection-end-line="347" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/message/UserInfoManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="30" column="71" lean-forward="true" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final-sources.jar!/io/netty/handler/codec/http/websocketx/PongWebSocketFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/handler/WebsocketHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2187">
+          <caret line="88" column="9" selection-start-line="81" selection-start-column="8" selection-end-line="88" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/message/MessageResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="44" column="5" selection-start-line="3" selection-start-column="3" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/message/MessageRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="8" column="35" selection-start-line="3" selection-start-column="4" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/handler/GroupHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/handler/NettyHttpServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1898">
+          <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/handler/RoomHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5913">
+          <caret line="232" column="66" selection-start-line="232" selection-start-column="66" selection-end-line="232" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/handler/HttpsParamsHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2289">
+          <caret line="118" column="44" selection-start-line="118" selection-start-column="44" selection-end-line="118" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/NettyServerHandller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="method#handlerHttpRequest#0;class#NettyServerHandller#0" />
           </folding>
         </state>
       </provider>

@@ -1,3 +1,0 @@
-2018-09-26 17:42:00.879 - client connected conn=[id: 0x14f8fbf6, L:/192.168.1.95:52330 - R:/192.168.1.95:3001]
-2018-09-26 17:45:12.374 - client caught ex, conn=[channel=[id: 0x14f8fbf6, L:/192.168.1.95:52330 - R:/192.168.1.95:3001], context=, status=1, lastReadTime=1537954920904, lastWriteTime=0]
-2018-09-26 17:45:12.382 - client disconnected conn=[channel=[id: 0x14f8fbf6, L:/192.168.1.95:52330 ! R:/192.168.1.95:3001], context=, status=1, lastReadTime=1537954920904, lastWriteTime=0]

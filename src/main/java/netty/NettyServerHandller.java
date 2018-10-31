@@ -15,6 +15,7 @@ import io.netty.handler.timeout.IdleState;
 import io.netty.handler.timeout.IdleStateEvent;
 import io.netty.util.CharsetUtil;
 import message.MessageRequest;
+import mpush.PushMessage;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -157,7 +158,12 @@ public class NettyServerHandller extends SimpleChannelInboundHandler<Object> {
      */
     private void handlerHttpRequest(ChannelHandlerContext ctx, FullHttpRequest request) {
         FullHttpResponse response = null;
-        if (request.method() == HttpMethod.POST){
+        if (request.method() == HttpMethod.GET) {
+            System.out.println(HttpsParamsHandler.getGetParamsFromChannel(request));
+            String data = "GET method over";
+            ByteBuf buf = copiedBuffer(data, CharsetUtil.UTF_8);
+            response = HttpsParamsHandler.responseOK(HttpResponseStatus.OK, buf);
+        } else if (request.method() == HttpMethod.POST){
             String uri=request.uri().replace("/","");
             String roomId=HttpsParamsHandler.getPostParamsFromChannel(request).get("roomId").toString();
             String clientId=HttpsParamsHandler.getPostParamsFromChannel(request).get("clientId").toString();
@@ -204,11 +210,23 @@ public class NettyServerHandller extends SimpleChannelInboundHandler<Object> {
         String uri=fullHttpRequest.uri();
         String[] uris=uri.split("/");
         FullHttpResponse response = null;
-        // 如果是websocket请求就握手升级
-        if (fullHttpRequest.method() == HttpMethod.POST) {
+        if (fullHttpRequest.method() == HttpMethod.GET) {
+            System.out.println(HttpsParamsHandler.getGetParamsFromChannel(fullHttpRequest));
+            String data = "GET method over";
+            ByteBuf buf = copiedBuffer(data, CharsetUtil.UTF_8);
+            response = HttpsParamsHandler.responseOK(HttpResponseStatus.OK, buf);
+        } else if (fullHttpRequest.method() == HttpMethod.POST) {
             System.out.println("httpChannel=======:"+ctx.channel().id());
-            String data = doPost(uris,fullHttpRequest);
-            System.out.println("POSTData=======:"+data);
+            String data = "POST method over";
+            if (uris[1].equalsIgnoreCase("push")){
+                    String userId=HttpsParamsHandler.getPostParamsFromChannel(fullHttpRequest).get("userId").toString();
+                    String content=HttpsParamsHandler.getPostParamsFromChannel(fullHttpRequest).get("content").toString();
+                    PushMessage.sendP2PMsg(userId,content);
+                    //boolean success = new PushMessage().notify(userId, new NotifyDO(content));
+                    data="{\"result\":\"push success!\"}";
+            }else {
+                 data = doPost(uris, fullHttpRequest);
+            }
             ByteBuf content = copiedBuffer(data, CharsetUtil.UTF_8);
             response = HttpsParamsHandler.responseOK(HttpResponseStatus.OK, content);
         } else {
@@ -250,9 +268,8 @@ public class NettyServerHandller extends SimpleChannelInboundHandler<Object> {
                     }else {
                         data = roomHandler.leaveRoom(roomId, uris[3]);
                     }
-
                     break;
-                /*case "call":
+                case "call":
                     String toUser=HttpsParamsHandler.getPostParamsFromChannel(request).get("toUser").toString();
                     clientId = HttpsParamsHandler.getPostParamsFromChannel(request).get("clientId").toString();
                     roomHandler.call(roomId,clientId,toUser);
@@ -261,7 +278,7 @@ public class NettyServerHandller extends SimpleChannelInboundHandler<Object> {
                     String flag = HttpsParamsHandler.getPostParamsFromChannel(request).get("msg").toString();
                     clientId = HttpsParamsHandler.getPostParamsFromChannel(request).get("clientId").toString();
                     roomHandler.callBack(roomId,clientId,flag);
-                    break;*/
+                    break;
                 default:
                     data = "{\"result\":\"error 404!\",\"params\":\"{}\"}";
             }

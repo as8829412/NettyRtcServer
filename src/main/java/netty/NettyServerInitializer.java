@@ -10,7 +10,6 @@ import io.netty.handler.ssl.SslHandler;
 import io.netty.handler.stream.ChunkedWriteHandler;
 import io.netty.handler.timeout.IdleStateHandler;
 import io.netty.handler.timeout.ReadTimeoutHandler;
-import org.kurento.client.KurentoClient;
 
 import javax.net.ssl.SSLEngine;
 import java.util.concurrent.TimeUnit;

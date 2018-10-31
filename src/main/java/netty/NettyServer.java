@@ -18,7 +18,7 @@ public class NettyServer {
 
     private static final Logger log= LoggerFactory.getLogger(NettyServer.class);
 
-    final static String DEFAULT_KMS_WS_URI = "ws://119.28.51.83:8888/kurento";
+    //final static String DEFAULT_KMS_WS_URI = "ws://119.28.51.83:8888/kurento";
 
     private final int port;
 
@@ -48,19 +48,9 @@ public class NettyServer {
         }
     }
 
-
-    /*public void destroy(){
-        log.info("Shutdown Netty Server...");
-        if(channel != null) { channel.close();}
-        //优雅退出，释放线程池资源
-        workerGroup.shutdownGracefully();
-        bossGroup.shutdownGracefully();
-        log.info("Shutdown Netty Server Success!");
-    }*/
     public static void main(String[] args)  throws Exception{
         NettyServer server=new NettyServer(8005);
         log.info("Http Server listening on 8005");
         server.run();
-
     }
 }

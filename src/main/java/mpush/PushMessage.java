@@ -15,16 +15,17 @@ import org.slf4j.LoggerFactory;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.FutureTask;
-import java.util.concurrent.atomic.AtomicLong;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class PushMessage {
     private static final Logger logger=LoggerFactory.getLogger(PushMessage.class);
     private static PushSender mpusher = PushSender.create();
-    private final AtomicLong msgIdSeq = new AtomicLong(1);//TODO业务自己处理
+    //private final AtomicLong msgIdSeq = new AtomicLong(1);//TODO业务自己处理
+    private final AtomicInteger msgIdSeq = new AtomicInteger();
     static {
         mpusher.start();
     }
-    public static String managerMsg(String toUserId, JSONObject msg){
+    public  String managerMsg(String toUserId, JSONObject msg){
         MessageResponse response=new MessageResponse();
         response.setMsg(msg.toString());
         response.setError("");
@@ -35,12 +36,14 @@ public class PushMessage {
         return "Success";
     }
 
-    public static void sendP2PMsg(String userId, String content){
+    public  void sendP2PMsg(String userId, String content){
         PushMsg msg = PushMsg.build(MsgType.NOTIFICATION, content);
+        msg.setMsgId("msg_"+msgIdSeq.incrementAndGet());
         PushContext context=PushContext.build(msg)
                 .setAckModel(AckModel.AUTO_ACK)
                 .setUserId(userId)
-                .setBroadcast(false)//广播
+                //广播
+                .setBroadcast(false)
                 //.setTags(Sets.newHashSet("test"))
                 //.setCondition("tags&&tags.indexOf('test')!=-1")
                 //.setUserIds(Arrays.asList("user-0", "user-1"))

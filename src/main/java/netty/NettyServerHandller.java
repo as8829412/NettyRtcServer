@@ -23,20 +23,37 @@ import java.util.Random;
 
 import static io.netty.buffer.Unpooled.copiedBuffer;
 
-//自定义业务
+/**
+ *
+ *自定义业务
+ * @author wyh
+ * @date 2018/10/31
+ */
 @ChannelHandler.Sharable
 public class NettyServerHandller extends SimpleChannelInboundHandler<Object> {
     private static final Logger log= LoggerFactory.getLogger(NettyServerHandller.class);
-    // 用于服务器端web套接字打开和关闭握手
+    /**
+     * 用于服务器端web套接字打开和关闭握手
+     */
     private WebSocketServerHandshaker handshaker;
-    //客户端与服务端创建连接的时候调用
+
+    /**
+     * 客户端与服务端创建连接的时候调用
+     * @param ctx
+     * @throws Exception
+     */
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
         super.channelActive(ctx);
         log.info(ctx.channel().id()+"===客户端与服务端连接开启，客户端remoteAddress：" + ctx.channel().remoteAddress());
         BaseHandler.group.add(ctx.channel());
     }
-    //客户端与服务端断开连接的时候调用
+
+    /**
+     * 客户端与服务端断开连接的时候调用
+     * @param ctx
+     * @throws Exception
+     */
     @Override
     public void channelInactive(ChannelHandlerContext ctx) throws Exception {
         super.channelInactive(ctx);
@@ -44,12 +61,19 @@ public class NettyServerHandller extends SimpleChannelInboundHandler<Object> {
         BaseHandler.group.remove(ctx.channel());
     }
 
-    //每个信息入站调用
+    /**
+     * 每个信息入站调用
+     * @param ctx
+     * @param msg
+     * @throws Exception
+     */
     @Override
     public void channelRead0(ChannelHandlerContext ctx, Object msg) throws Exception {
-        if (msg instanceof FullHttpRequest) {// 如果是HTTP请求，进行HTTP操作
+        // 如果是HTTP请求，进行HTTP操作
+        if (msg instanceof FullHttpRequest) {
             handlerHttpRequest2(ctx, (FullHttpRequest) msg);
-        }else if (msg instanceof WebSocketFrame) {// 如果是Websocket请求，则进行websocket操作
+        }// 如果是Websocket请求，则进行websocket操作
+        else if (msg instanceof WebSocketFrame) {
             handlerWebSocketFrame(ctx, (WebSocketFrame) msg);
         }
     }
@@ -221,7 +245,7 @@ public class NettyServerHandller extends SimpleChannelInboundHandler<Object> {
             if (uris[1].equalsIgnoreCase("push")){
                     String userId=HttpsParamsHandler.getPostParamsFromChannel(fullHttpRequest).get("userId").toString();
                     String content=HttpsParamsHandler.getPostParamsFromChannel(fullHttpRequest).get("content").toString();
-                    PushMessage.sendP2PMsg(userId,content);
+                    new PushMessage().sendP2PMsg(userId,content);
                     //boolean success = new PushMessage().notify(userId, new NotifyDO(content));
                     data="{\"result\":\"push success!\"}";
             }else {
@@ -287,7 +311,13 @@ public class NettyServerHandller extends SimpleChannelInboundHandler<Object> {
         }
         return data;
     }
-    // 读操作时捕获到异常时调用
+
+    /**
+     * 读操作时捕获到异常时调用
+     * @param ctx
+     * @param cause
+     * @throws Exception
+     */
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
         if(!ctx.channel().isActive()) {
@@ -299,14 +329,22 @@ public class NettyServerHandller extends SimpleChannelInboundHandler<Object> {
         ctx.flush();
         ctx.close();
     }
-    // 通知处理器最后的 channelRead() 是当前批处理中的最后一条消息时调用
+
+    /**
+     * 通知处理器最后的 channelRead() 是当前批处理中的最后一条消息时调用
+     * @param ctx
+     * @throws Exception
+     */
     @Override
     public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
         ctx.flush();
     }
 
-    /*
+    /**
      * 功能：读空闲时移除Channel
+     * @param ctx
+     * @param evt
+     * @throws Exception
      */
     @Override
     public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws Exception {

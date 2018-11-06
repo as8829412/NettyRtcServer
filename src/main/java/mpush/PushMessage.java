@@ -60,7 +60,7 @@ public class PushMessage {
     }
 
     public boolean notify(String userId, NotifyDO notifyDO){
-        PushMsg pushMsg = PushMsg.build(MsgType.NOTIFICATION_AND_MESSAGE, Jsons.toJson(notifyDO));
+        PushMsg pushMsg = PushMsg.build(MsgType.NOTIFICATION, Jsons.toJson(notifyDO));
         pushMsg.setMsgId(Long.toString(msgIdSeq.incrementAndGet()));
         byte[] content = Jsons.toJson(pushMsg).getBytes(Constants.UTF_8);
 

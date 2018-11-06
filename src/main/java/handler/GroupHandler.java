@@ -65,7 +65,7 @@ public class GroupHandler extends BaseHandler {
         if (error!=""){
             return "{\"result\":\""+error+"\",\"params\":\"{}\"}";
         }else {
-            JSONObject params = RoomHandler.get_room_parameters(room_id, client_id, isInitiator,host);
+            JSONObject params = new RoomHandler().get_room_parameters(room_id, client_id, isInitiator,host);
             params.put("messages",json);
             params.put("clientSize",clientSize);
             String begin_dt= SimpleDateUtil.getCurrentDate("yyyy-MM-dd HH:mm:ss");

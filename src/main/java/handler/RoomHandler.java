@@ -23,7 +23,7 @@ public class RoomHandler extends BaseHandler {
         JSONObject json=new JSONObject();
         json.put("type","call");
         json.put("msg",clientId+"用户呼叫你!");
-        String result= PushMessage.managerMsg(toUser,json);
+        String result= new PushMessage().managerMsg(toUser,json);
         //return "{\"result\":\"SUCCESS\"}";
     }
     //呼叫回应
@@ -32,7 +32,7 @@ public class RoomHandler extends BaseHandler {
         JSONObject json=new JSONObject();
         json.put("type","call");
         json.put("msg",msg);
-        String result= PushMessage.managerMsg(other,json);
+        String result= new PushMessage().managerMsg(other,json);
     }
     //加入房间
     //type:1单聊，2群聊
@@ -138,7 +138,7 @@ public class RoomHandler extends BaseHandler {
         JSONObject json=new JSONObject();
         json.put("cmd","send");
         json.put("msg",msg);
-        String result= PushMessage.managerMsg(toUser,json);
+        String result= new PushMessage().managerMsg(toUser,json);
     }
     public String leaveRoom(String roomId,String clientId){
         String error ="";
@@ -215,7 +215,7 @@ public class RoomHandler extends BaseHandler {
         return otherClient;
     }
     //获取房间配置
-    protected static JSONObject get_room_parameters(String room_id,String client_id,boolean isInitiator,String host){
+    protected JSONObject get_room_parameters(String room_id,String client_id,boolean isInitiator,String host){
         JSONObject params=new JSONObject();
         String ice_transports = "";//request.get('it')
 //        String ice_server_transports = "";// request.get('tt')
